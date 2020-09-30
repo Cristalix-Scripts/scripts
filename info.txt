@@ -17,3 +17,4 @@
 Идеи и предложения -> Discord:
 - Pepel_ok#0001
 - @nartsiss#1488 
+UPD: Файл поместить в папку scripts 
