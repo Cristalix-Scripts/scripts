@@ -45,5 +45,6 @@
 ##### **xpepelok [GitHub](https://github.com/xpepelok/) | [VK](https://vk.com/xpepelok/)  :**
 - Backend
 - Frontend
+##### **Для установки необходимо поместить файл Staffinfo.ts в папку scripts**
 ##### Отдельная благодарность за предоставленные возможности: **xDark, ilyafx, DelfikPro**
 
