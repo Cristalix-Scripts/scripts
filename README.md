@@ -45,5 +45,5 @@
 ##### **xpepelok [GitHub](https://github.com/xpepelok/) | [VK](https://vk.com/xpepelok/)  :**
 - Backend
 - Frontend
-##### Отдельная благодарность за предоставленные возможности: **xDark, ilyafx**
+##### Отдельная благодарность за предоставленные возможности: **xDark, ilyafx, DelfikPro**
 
