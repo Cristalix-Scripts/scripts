@@ -11,8 +11,11 @@
         if (armorEnabled) {
             let item = Inventory.getStackInSlot(slot)
             let amount = Inventory.getCount(slot)
+            let damage = Inventory.getDurability(slot)
+            var maxDamage = Inventory.getMaxDamage(slot)
             
             Draw.renderItemAndEffectIntoGUI(item, x + 6, y + 5)
+            Draw.drawStringWithShadow(damage == maxDamage ? "" : damage, x + 22, y + 11)
             Draw.renderItemOverlayIntoGUI(item, x + 6, y + 5, amount == 1 ? "" : amount)
         }
     }
