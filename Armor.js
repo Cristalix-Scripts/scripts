@@ -34,7 +34,7 @@
             // TODO deprecated, add minecraft.getResolution()
             var resolution = Draw.getResolution();
             var x = Mouse.getMouseX(resolution);
-            var y = resolution.getScaledHeight() - Mouse.getMouseY(resolution);
+            var y = Mouse.getMouseY(resolution);
             var startX = config.x;
             var startY = config.y;
             if (x >= startX - 34 && x <= startX + 34 && y >= startY - 34 && y <= startY + 34) {
