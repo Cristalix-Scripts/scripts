@@ -1,5 +1,7 @@
 (function (self) {
     var config = Config.load('Armor.json');
+    var Inventory = InventoryDeprecated;
+    if (!Inventory) Inventory = Inventory;
 
     if (!config.armorEnabled) config.armorEnabled = false
     if (!config.x) config.x = 4;
