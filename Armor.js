@@ -1,7 +1,5 @@
 (function (self) {
     var config = Config.load('Armor.json');
-    var Inventory = InventoryDeprecated;
-    if (!Inventory) Inventory = Inventory;
 
     if (!config.armorEnabled) config.armorEnabled = false
     if (!config.x) config.x = 4;
@@ -11,6 +9,7 @@
 
     function drawArmor(slot, x, y) {
         if (armorEnabled) {
+	    RenderHelper.enableGUIStandardItemLighting();
             let item = Inventory.getStackInSlot(slot)
             let amount = Inventory.getCount(slot)
             let damage = Inventory.getDurability(slot)
