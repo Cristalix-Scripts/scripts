@@ -1,27 +1,45 @@
-var config = Config.load('Inventory');
+(function (self) {
+var config = Config.load('Inventory.json');
+var i = 9
 
 if (!config.isInventorySee) config.isInventorySee = true
+if (!config.x) config.x = 4;
+if (!config.y) config.y = 4;
 
-var isInventorySee = config.isInventorySee
+var inventorySee = config.inventorySee
 
-function render() {
-    if (isInventorySee) {
-        Draw.drawRect(38, 0, 204, 56, 0x4C000000)
+function render(i, x, y) {
+    if (inventorySee) {
         RenderHelper.enableGUIStandardItemLighting();
-        for (var i = 9; i < 35; i++) {
+        for (i; i < 36; i++) {
             let item = Inventory.getStackInSlot(i)
             let amount = Inventory.getCount(i)
-            let y = -18 + Math.floor(i / 9) * 18
-            let x = 40 + (i % 9) * 18
-            Draw.renderItemAndEffectIntoGUI(item, x, y)
-            Draw.renderItemOverlayIntoGUI(item, x, y, amount == 1 ? "" : amount)
+            Draw.renderItemAndEffectIntoGUI(item, x + (40 + (i % 9) * 18), y + (-18 + Math.floor(i / 9) * 18))
+            Draw.renderItemOverlayIntoGUI(item, x + (40 + (i % 9) * 18), y + (-18 + Math.floor(i / 9) * 18), amount == 1 ? "" : amount)
         }
     }
 }
 
-Events.on(this, "gui_overlay_render", function () {
-    render()
+Events.on(self, "gui_overlay_render", function () {
+    var startX = config.x;
+    var startY = config.y;
+    render(i, startX, startY)
 })
+
+Events.on(self, 'game_loop', function () {
+    if (!Mouse.isGrabbed() && Mouse.isButtonDown(0)) {
+        // TODO deprecated, add minecraft.getResolution()
+        var resolution = Draw.getResolution();
+        var x = Mouse.getMouseX(resolution);
+        var y = Mouse.getMouseY(resolution);
+        var startX = config.x;
+        var startY = config.y;
+        if (x >= startX - 34 && x <= startX + 34 && y >= startY - 34 && y <= startY + 34) {
+            config.x = x;
+            config.y = y - 8;
+        }
+    }
+});
 
 Events.on(this, 'chat_send', function (event) {
     if (!event.command) return
@@ -31,8 +49,8 @@ Events.on(this, 'chat_send', function (event) {
         switch (args[1]) {
             case 'toggle': {
                 event.cancelled = true
-                config.isInventorySee = (isInventorySee ^= true)
-                Config.save('Inventory', config)
+                config.inventorySee = (inventorySee ^= true)
+                Config.save('Inventory.json', config)
                 break
             }
             default:
@@ -41,3 +59,4 @@ Events.on(this, 'chat_send', function (event) {
         return
     }
 })
+})(this);
