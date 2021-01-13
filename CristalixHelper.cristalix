@@ -1,655 +1,728 @@
-const _0x180e = [
-    'eSofxufSWQO',
-    'WQDM0j/qVTc30lJrHTc40y8Gs2v5C3rYB2TLCZOG',
-    'jxrPBwuL',
-    'W5yjdHjJW5RdK8oRWPHYmSowuMZcGttcSDoF0PxtSxDEs1rgvSoQpCoyWRBdQConW7bcWQhtV9c30kVtL9kt0O7sJDoQ07/rPSkV',
-    'W6qP0RFrT9gL067tHmoN06JqQDko0RlrS9oG',
-    'z3vPx292zxjSyxLFCMvUzgvY',
-    'W4BcQSoIWP5OdSobWRCZwCk+WRy',
-    'AxncDxr0B25eB3DU',
-    'z2fTzv9SB29W',
-    'tHm7l8kb',
-    'W5BdHbtcVmo1W5ldH8kSBZn4nwpcLJaK',
-    'AuZtMngi0jBqVncx0O7sTnoVbDob057rIDk10z7sODcuWQKA',
-    '44cmincD0lJqUJOGjw5HBwuLihWGrLbtoIaLzNbZjsb8icv0Aw1LjsdJGi0',
-    'mw5SqNbpzq',
-    'A2v5C3rYB2TLCW',
-    'WPrldmozA8ks',
-    'AuZcSr1EDfVcU8oHWRraWOZdMvi',
-    'z2v0ug9Zwq',
-    'imkNnNjHAw5IB3CGWQC4lsdcP2BqSTc60lVrJTgh0lxqVDc40luV0l7rGTc60lVrJTgh0lxqVDc40luG0ydqSnc00ypqTTc90l7qS9c+ingg0llqTDgc0lak',
-    'mJy4mtK5sgjLzfPo',
-    'imkNnNrVz2DSzsdcPZGTimkNzTcY0lRqU9go0yFqTDc90lJqTs/qVTgc0lRqU9go0yFqTDc90lJqTsdrGTcW0lhqU9c40yFqUTc4inc+0l3qU9cW0lNqVDcWcG',
-    'l2nVB3jKAw5HDgvZ',
-    'WQDH0kdqTDc/0l7qT9c40ylqVTga0lJqUsdqTnc70y8G0l7qSDc90l7qSTc70lxqVDc40lK6imkNnMH0DhbZoI8Vz2L0AhvIlMnVBs9dCMLZDgfSAxGTu2nYAxb0CY9Zy3jPChrZcG',
-    '0jlqTDgb0yWG0l7qVDc70ldqUDc9',
-    'W4f/w8k94OoYWPCBn1VcJCo1WOvwWORcTHGFWOuuW47cP3VdVaLThshdJxrXW7n9WQKjWRKKW7yvWQRdKmk3D8o6A8orWR/dTSoiyMFdNvVcObJcPc/cNG0gWOpdGr4xsxxdUH/cKhtcK8oHW4ZcUSoczHZcRJu7',
-    'WRdcK2hcG8o9WPK',
-    'WRqNWO1+CszjWQ8GW5CuW54',
-    'l29UBgLUzq',
-    'wCkrW6rEW6WsW5bXq2BdRrS',
-    'W5BdHbdcT8oGW4JdNCk7qJD8neVcTJGXW4JdHmohzq',
-    'AgvSCa',
-    'dfeijYbzW77cGv8pdfS',
-    'sfncDg9sr0i',
-    'WQaYWRRdUfxcICodWQ4LB8kGACkAW5JdItRdVwDWxq',
-    'BmoqW4NdJCkQW43dNCoysMKTpXOBWO0CW61lpqa',
-    'zxH0zw5K',
-    'W708WRnf',
+var _0x4669 = [
+    'vhmZW5hcIKtdU0RdHmo3W6HkBX4',
+    'W7brrmozp8kSE8oHwmkpA8ohlCo5',
+    'imkNnMjHy2TNCM91BMqGWQC4lsdcP2BqSTc60lVrJTgh0lxqVDc40luV0l7rGTc60lVrJTgh0lxqVDc40luG0ytqVTc90laG0ylqSncX0lVqUngh0lRqUaO',
+    'w8oBovFdN8oDWRhdVuryBSkjkCkq',
+    'W5ukWRbCWO0hbK0',
+    'imkNnNnLDca8Dgv4Dd4GWQC4lsdcP2BqT9cW0ltqSngc0yWG0yhqSTc+0zeG0l3qSnc30llqSnc90lJqTsdqVTc60l3qSaO',
     'y3vYCMvUDfrPBwvnAwXSAxm',
-    'WQDH0yhqV9ga0ldqSTcW',
-    'mNrWvwfKDa',
-    'B2xcMmorW6xdKCkvma',
-    'uK1c',
-    'W7lcMhtcVSo3W49u',
-    'nZqSW6jFWQ3dQ2a',
-    'mKrqAK9zqW',
-    'AxndB29YzhnsywLUyM93',
-    'DSoPWRhdIhBcRsBdIeJcUq',
-    'W5ddV8oYDXCKb8krtIjctmkNW5ldPSkunSkFW4BdNgZdQSkAhblcKCkdW5NcJmkCWPldJa',
-    'oSkcWPxcT8omWRNdQCoovmoaW59MW7RcN28',
-    'ic3cNYa',
-    'WQDH0j/qVTc80l7rIDgminc/0l4G0lRqVTc80ldqVDc00luGWQC2jW',
-    'ms4X',
-    'WOtcJCkiBmkwiSoBW6yJj8oZW6NdN0JcTCoNqSk2lG',
-    'W5HAdmob',
-    'WP8BWQbkWPldL2BcKmkPW4xcLSo1W6RcVgSfpH0i',
-    'DgL0Bgu',
-    'u0vdt05euW',
-    'id8G',
-    'd8ozEfn0WRVcTd5HW4NdSbe',
-    'B8ohW5ZdQmkCW4RdGmoDuxOtoqa',
-    'BgvUz3rO',
-    'W4JcVmoDWR94emoqWQSVw8k0WQVdGJddLCo9WP7cHmoI',
-    'W5yjWONcG3RcNmoAW7tcMtn7hWS1W4tdOmo30QxsM9oZ0jtqUncq0iijySoEhCoY',
-    'WQagdmkeWPv0WPpdQW',
-    'WQfGW6NcRSoApConW7S',
-    'y3vZDg9TvgL0Bgu',
-    'y29VCMrPBMf0zxm',
-    'gcHFrmogESkYsqa',
-    'WQDJ0llrI9c60lS',
-    'nSknlteldf0dW5JdShddItpdISk5AmkYeSoHWOxtI9kh0l3tT9k80Q/cODkQ0AZtSnouhTcW0RFrM9kz0RtqRDkn0yBcVTg305ltMDcPAW',
-    'mLvjELbOqG',
-    'WQDzWReDxNrBWRVdOCk0qmkmWQyCW6qfW7bbW7C',
-    'CMvWBgfJzq',
-    'WPVcMfpdNwJcHmkZyCo3WPdcH8oxk8onW7hdUmoQWQhrG9o30yRrVDousTgb06xrMTg/0PtrMDgKsmk7amk2WOhdOflcVHtdMmo9',
-    'C2nOzwr1BgvbDezPEgvKuMf0zq',
-    'F1LylqekguZdQCo7ACoFyCkpEG',
-    'WQ4KWOhdMfJcJCoi',
-    'y2fUy2vSBgvK',
-    'AxnlzxLeB3DU',
-    'WQDM0j3qSnc30llqSnc90lJqTsdqVTc60l3qSdOG',
-    'z2v0ug9ZwG',
-    'mZRcKZ8JWRNcKa',
-    'bCosWP0hWRvnW5b4rxhdPZKCW4mEWRtdR8o/WPLWmtfdBxG',
-    'C2XPy2u',
-    'WORcM8k3wSkmmmodW7eOg8o/W77dRK4',
-    'WP7cLeK+W7GboSoGW7LDtCkPWQRdTWlcM8ktWO1zWPq',
-    'WQC2q3jPC3rHBgL4sgvSCgvYimkNomkNBhWG',
-    'WPHgW54',
-    'WQDH0llqUTc7',
-    'gSkCmZuX0B3sMDcW0R/qIDgx04BrLnki07ZrQDg6W5/cOq',
-    'W5lcGmoLxZFcSmkzWQrFt8k+W4ZdHXNcUCkyW6XrW71d',
-    'AM9PBG',
-    'icdcPZyVB25SAw5Linc40lVqUcaVB25SimkNoc0GWQDM0yhrH9gr0ylrH9c40lOG0l7qVDc70ldqUDc90lak',
-    'WQuKWPVdSu3cIa',
-    'WQDJ0ydcPZBqSmkNzDc0WQCY0ypcP2lqTSkNmDc9WQC10yVcP2tqUq',
-    'WOfOWQdcQwqxWOtcTZvCWR3dUdDPWPhcS1VcJDkN0AltODkE0QxtQTc2eTkh0iFqTngf04xrKTck0BttV9cu07BcMDgE0lZrVDcT0PNqITc90km',
-    'jZOk',
-    'W5mbWQy/',
-    'WRfj0kNqIDgu0ym',
-    'yMfJA2DYB3vUza',
-    'WQDH0l7qSDgl0yFqVDgl0lK',
-    'mteYnZq5zerMEg5L',
-    'AxnuAxrSzuvUywjSzwq',
-    'W6bPeCkaha',
-    'z2v0uMvZB2X1DgLVBG',
-    'W6tdK1VcM8kIFCkaWR/cJWeLWQ1lWQprOnku0QFtVDcv0RBdPngs0Q3cVnoj0ARtLnkr07BsSTcSWQ4',
-    'mtK1nZy2thbIwMTU',
+    'icdcPZyVA2v5C3rYB2TLCYdqUnc70lGGl2TZimkNoc0GWQDMs2v5C3rYB2TLCYaO0l7rGTc+0lhrGncW0lBqTDc90lJqTsdqVDcW0lBqSngc0yVrHsdqUTc70ldqSTc40yGPcG',
+    'oCoQ0y3qGDcx053tInc00PNtRH/rMngP0QJsR9k40jRtGmoPta',
+    '0z/tJDoT0lVtSncr0PHv0yZtITkt0k/sQDcD',
+    'crpcP8kxdu/dLfbwWQtdJq',
     'z2v0u2nHBgvKsgvPz2H0',
-    'W7HWW4FcOq3dMCojWO8bEmkVFG',
-    '0i7rPTg70j8e0lxqS9oe05prL9gI',
-    'jZRcLZSdWQJcHSkUW4D8W6ZcM0ldI8kvWQBdT0ddQrK',
-    'W4BcGmoTrHdcH8kdWQXfzCkmW5BdGbdcJCkv',
-    'ywXSvgLTzq',
-    'WPm1W7O1hq',
-    'WPzvWRjaaCkOWPVdRCkwemoeWOuuf9ov047sSDcl05VrUgFtU9otc9gO0OBsH9ci0PxrTDkMBa',
-    'BNvSBa',
-    'yCoXWRL4x8kfW5tdVG',
-    'nwq1WPhcQSk3WORdMSkbBZpcRSoWcJScq0JcU8kB',
-    'WQDM0jRqVTc+0ydqTnc40l3qSngc0ySG0ldqTncWoIa',
-    'WQDM0jRqVTc+0ydqTnc40l3qSngc0yS6ia',
-    'WQDH0yhqV9ga0ldqSTcWingb0l3qUnc30ym',
-    'WRJcNcaKkGbCi8ommfy',
-    'W7q1WRnHbhHp',
-    'W7TozsqQcM8MW518WPtdI8k7fmkxW4BsTTgs0zBsODk50idsITcx04ldQTct0QtqOnoA0ONrQ9cZ05dqO9cXE1LjhCk7ebXbCmohW6ldUa',
-    'WPNdVICpWQJcI8kZWPq',
-    'W6jJeCkmhaffW74',
-    'WRxdT9oq0jZqGDod0OJsPToY0kPv0iJsRnc80ONdVIldPncN0jZcHTcy0kZtTDc80ReOW7JdUnoj06JsJDk9EnoN0lVrUDcE0BJtGCo9b8odCnkz0A/tJCoM0PBsNTgY0RNrKToN0j3sT9o+0zFtQCkbbg7tJDkH0QtrRTgw0BVqOTgd0BhqGDcf0QFcGTgZ04RsTncU0PJqV9cH06iz06trTnka07htKno906nUpmoXgbW/WQf0',
-    'pmo0ddTbz37dN0rwCJfNWPhtGnkm0jlqH9ki0yzz0ORtNL3rOTgL0y7tOngs04psN8ox',
-    'DYJtMnc80kJqHrdcScZdMGVdJ8oRWPiDh8oYW4tdRW',
-    'WQFcUvdcHmoxW6vp',
-    'iYe0W5Xe',
-    'W7tcKToK0PpsMDoW',
-    'WPvCW5TwkCoxW4JdKmkdEZ7dTvP0WOGUW6i',
-    'CIPY',
-    'q3jPC3rHBgL4',
-    'zhjHD1jLy3q',
-    'C2v0',
-    'uuRsM9gV0BBsGG',
-    'W6KwW5SnWRddQvddG8kbkCoIi8knW6lcKMLYlY7cMncC0yRrNngb06BsJ9og0OtrISoU0PZrMnkU0ilrNTkW0BtqSTkl0iyD0yRtP9kM0lRcQncz0OFqNDcw0i/sU9gU06NdTG',
-    'mJqXmtv2tvjYtgG',
-    'WPxcIeqGW4uq',
-    'WP/cLYbKWOSVBW',
-    'W4xcVCo3WQ1tbSohWQ0',
-    'CCkXySksWPBcPmkFW5/cIIJdG8o/WQLcW48m0jdqLToV0QlqU9gN0RtsJnkZaTke0lpqIngG07ltGncS0AJrO9oSmTcP0y/sPToQ0l7qNDoR0kNsTnodv9kJ0AZqPDkv0zRsSDk50BVcJ9o+0BNrSTkQFG',
-    'WPi8W6ejdmkKW4NdLdJcPN/cHM8z',
-    'AxndB29YzhnfBMfIBgvK',
-    'nJiXotLdqvHcDgS',
-    'zCodW6FdOCkAWOJdJmoLu8oAW5u',
-    'AxnlzxLZDhjVA2vZrw5HyMXLza',
-    'C2vYDMvYx2nVBM5Ly3q',
-    'W5BdHbZcTSoJW5pdL8kTuJL0ke3cNce',
-    'C2v0vgL0Bgu',
-    'Dg9Nz2XL',
-    'u8opwmo3lHhdLNFdQsn3WOSJW5NcR10',
+    'W5JcT3aPWRtdVCkCWRe',
+    'y3vZDg9TvgL0Bgu',
+    'imkNohWGWQDH0j7qSDc90l7qSTc40ylqTDgb0yWG0ltqVIdcPZy',
+    'aHCcW4xcQeNdKmkc',
+    'BgvUz3rO',
+    'W4mBWRDoWPfGW4NdHCk3n0RdNq',
+    'WRBdUb0UW4tdKSoXCSogySoCW7pdRCoo',
+    'tWVcICklb3/dIuHt',
+    'gCkkWRypW6TmW4ib',
+    'WPOYW6vk',
+    'W4XUWP3cKG7dRw8',
+    'W67cOvZcNfWXl33dLG',
+    'imkNnNrVz2DSzsdcPZGTimkNzTcY0lRqU9go0yFqTDc90lJqTs/qVTgc0lRqU9go0yFqTDc90lJqTsdrGTcW0lhqU9c40yFqUTc4inc+0l3qU9cW0lNqVDcWcG',
+    'wqFsTng30PZqL2drIToN0jFtTTcX0ztcVTcF0kpsGncP0k7tS9cp0kHrca',
+    'mZa2n1bvChnSsG',
+    'WQDJ0llrI9c60lS',
+    'W5a1y8kUmCkHWPBcOKq',
+    '067rMToe0RNdP9oe05FqKnoE0QhsNW',
+    'oCoXFbr7W5pcUCoFbSkuWPf/rCodWQ3dTSknuCox',
+    'WP8nW74rW4a4jq',
+    'aGJtQTcz06K',
+    'WRLxW5n4WQxcKmoC',
+    'W7pdRqruDCksWOi',
+    'icdcPZyVDgL0BguGWQC4lsdcP2BrG9c/0ydqSncY0lVqTDc90lJqTsdqVDcW0lFqSTcW0l3qUnc10lWG0l7qUTc90laG0lJqS9ga0ySkcG',
+    'icaGWQC2jwzWCYuGWQC4lsdcP2BrGTc10lRrG9gj0lJqUsbgufmk',
+    'WO/cHDcA05ZtMTgk0PFrT8kD0QRrJToG06psK9gyWRpqVglrODgz07BrMDky0AtqTDk60jBqNnkO0QiLW40',
+    'ghXAi1JdJqDC',
+    'tWVcGCkbeuNdGKX4WRNdISkqWPGWdh8',
+    'kWdqJncU0i5+0ANrHDkz0RRsS9gc0RpqT8oAWOy',
+    'mteYmwTLuxDeua',
+    'WQDM0j/qVTc70l7qTTc10l3qUnc1inc60l7qVTga0ltqUnc90ldrGIdcP2hqUnc30lZqTDc90lxqVDc+lG',
+    'AxnlzxLZDhjVA2vZuMfPBMjVDW',
+    'W5RcQCoLW54JWQS',
+    'icaGWQC2jxrPBwuLimkNoc0GWQDM0ylqTDc60yprIDc10luG0llrGnc10lZrJWO',
+    'l2TZ',
+    'y29VCMrZwa',
+    'W6FdJmoRWQNcHSkeW79iA08',
+    'WOvpfCoDWP7dICk4W5u1W6JcN8k8bSk7W4JdJCkaDfG',
+    'FCogbWH4W7PEW7ZdT8oBW7mcW6VdPCkwW43dHYVdQmkg',
+    '44cmincD0lJqUJOGjw5HBwuLihWGrLbtoIaLzNbZjsb8icv0Aw1LjsdJGi0',
+    'W4WwWObAWPyCdvaCr8oQW7iceSk9W4O',
+    'W5O7E8k4c8ksWONcV1epdW',
+    'WRRcP8oYW5VdO8ktWOlcU8kGWPSQqgDplmoDW6BcSmoJWQhcRIRdNxRdN2PcFv3cSZzCDSk0x8o5WQFdGw3dI8oXW5PgoSoxW4RcGqJcGZ8zWQS8WONcIXddLbCqn8kCWR9oW5PZr0mdgSojWQRdHSo7W60a',
+    'mtm5s3fQwNLP',
+    'zhjHD1n0CMLUz1DPDgHtAgfKB3C',
+    'aGJsMDcy06FqUTkyWPFsTDgQ0jVtUnoe07a',
+    'WOWdW6ZcKEkaI8kWW4tcStVcPvfZoNWJnmkwW4NdJgakaINdVSogWO86WR0pW7lcUwVcIM8JafqIWP/cOSohW5ShBCoNgeO2WROSW7FcV8oxudSMhJTEkmkXwSkgW7tcMmkhW4TprKzZWPxcNmoWWPX6W5anW78',
+    'W5ZdM8oTWPRdLfFcPJOme8ksW5zYwCoOWQ7cNcz4WQi',
+    'W6RdOWHwsSkd',
+    'jxrPBwuL',
+    'vhmKW5FcKvRdUNZdUmo3W6niAbxcNG',
+    'y29VCMrZwq',
+    'WPPJ0zxtS9oe0jm',
+    'z3vPx292zxjSyxLFCMvUzgvY',
+    'W7ddJcedzI8BWRG',
+    'W7FdVYXEsCkuWPqaW7hcV1yinSo8W6G',
+    'WQDH0l7qSDgl0yFqVDgl0lK',
     'WQDM0j/qVTc30lJrHTc40y8G0ylqSncX0lVqUngh0lRqUdOG',
-    'W7pcKw/cGCoQ',
-    'BwfRzvn0CG',
-    'vXr/EhujW5JcHNGen2FdO8kBWPpcMrJcUmo9WPi',
-    'l2nYAxn0ywXPEgHLBhbLCG',
-    'iXbZqJv8DmoO',
-    'W65wW5O',
-    'z2v0u2nHBgvKv2LKDgG',
-    'CMfPBMjVDW',
-    'WPpcLwmSW5igpmo7W7HrF8kZWOZdVJJcNCkqWOzb',
-    'uqNtNDcE04u',
-    's1vRW7VcKLldIsnXW6VdRqOHfclcRIX30R3sPngIW6RtNngp0zddPG',
-    'AxnpBMXPBMvcB2fYzeXLzNq',
-    'dY7dNWJdUmoaW73dVSkIW58',
-    'WPGCWQKKrmofhM8',
-    'A2v5',
-    'E1DwxJjOz8o1W63dHmkYWQxdUmoZWRa',
-    's8osFtNdNapdGIX4WQ5VeSkRdmkOW6JsUDcR0RttMTgT07/tNngp0z/dG9k70ypqQDcY0BxtN9ce0jdrLnkKW4tsK9oQ0zpqIDgY0yJrOuRtLDc90ARqO9k50lptRTgX0lJdKDkm0AVsMG',
-    'WP1DsWFcGMZdPw0MWPG',
-    'y2HHDf9Zzw5K',
-    'wsacjSo0h8oL',
-    'te1c',
-    'wHvryuOuW4tcILqmaxZdS8k2WQ7cKbVcSmo3WOe',
-    'WQPyWPSpDhnDWQddOmk4CSkwWPCAW5ypW71aW7Xn',
+    'imkNnNGGWQC4lsdcP2BqT9cW0ltqSngc0yWG0lRqVTc+0ydqTnc40l3qSngc0ymGWQC2wcdcP2BqTnc70y8G0l7rGTga0lJrGDc+0llqUTc4cG',
+    'WOnm0AltSTk8070',
+    'WQLiW5bJWRu',
+    'W4/cPgC7',
+    'W4HrkSoqESoKW47cQddcSMn2ix9qW7VdJ8orWOpcSa',
+    'icaGWQDM0j/qU9c10lNrGDgf0l7qU9c00lxrGngloGO',
+    'W7/cQ8oUCEkcKSkEW5PwW5P3W43cRSo7W5NdRSkKWR7cVZPutM/cNa3dKCodW70hpwZcK8k6W6y8zcLwW6ddV8kTW4RdJCo0qmkJW5RdIeKTcCopm8o5pg7cOrlcPxJcG8kMWQehW7FcNCoHymoBW7PkySo0W7jrD8kOeuL8WRTmWO4',
+    'WPxcNI5mW4ldGSkGW5LguhtcRsNcMdf6cCkvWRzecTkp07/rVToV04pdU9o40zBrOnk70AXE0RpqGTck05VrKnocW5u',
+    'dZpdUfldMa7dI20cW5RcHe/cUSklkmozWPO',
+    's8o5ja',
+    'AxnpBMXPBMvcB2fYzevUywjSzwq',
+    'W5xcTLO7WP/dNmkqWRjs',
+    'egjnWRKhWR7cJCkSwbueeSkxW6pdJh3dIZ/dTs7dJd83Fa',
+    'ouZdHXrSvmkkWPSqiCk8WRe',
+    'W41CWRZcVSk2WPdcSflcHW',
+    'W6ldQnkC0PZrNngF',
+    'W4HzWRtcSSkRWPVcUK/cMa',
+    'AxndB29YzhnfBMfIBgvK',
+    'W7RdVG5gDmkdWPmh',
+    'CMvWBgfJzq',
+    'mJi4nZfurwHAs2i',
+    'WPpcQN8YWO/dTSkA',
+    'W65vxCokcCkQvG',
+    'WQCBw0aAdI1XyIldKG',
+    'WR3dQIOSW5FdJmo7qSogzW',
+    'mJe1oen6tuzABa',
+    'WP8aW6RcH8kJWPpcHeRcMSo9W5e',
     'AxnpBMXPBMvcywnRz3jVDw5Krw5HyMXLza',
     'y2vPBa',
-    'W41zW7v5WOaIW4BdOcuJW7JcUJ0EW7NcPCkjWRxqI9kW0y3sSnc5WRxqRDoG05VrRTk70B3qUfhtSTo/05lqGnc10lttQ9kzDnks06drU9kF04xrP9go',
-    'WQRdHmkEg8k+W6DVW43cHYRdSG',
+    'sfncDg9sr0i',
+    'WR7dLDgy0y7rOnoj0jhtNTkG',
+    'mJe4m2j2z094Aa',
+    'qr3cTSk9hvRdILPzWPBdL8krWOi8',
+    'uCoja13dJSoDWRJdNu4',
+    'W5hdMSodWOpdQLVcQYS',
+    'BXVcI8opxCoRWOhdLa',
+    'WRGvW7xdGZ3dNbe+jcTHW5XxB38qlCk9W6y',
+    'AxnpBMXPBMvcB2fYzeXLzNq',
+    'WQDM0j3qSnc30llqSnc90lJqTsdqVTc60l3qSdOG',
+    'wMTtxmoDaW',
+    'W4rXWR7cQaVdQwrFW5KuyxTnW7SdW7xdSa',
+    'nZC1ntrmCLb4rKu',
+    'uK1c',
+    'ChjPBNrdAgf0twvZC2fNzq',
+    'WQDJ0ydcPZBqSmkNzDc0WQCY0ypcP2lqTSkNmDc9WQC10yVcP2tqUq',
+    'W5ZdImkZWPdcV8koWO9fWORcUaxdISoUWPfQW7/sKnkx0QJqUTkf0QJrL9cx0QKQ05JqO9gC0OVsSTcO0OZtN9ob0RxdQToo0i/qGDkR0A3rRTgdW5JtIDcV0kVqK9gr0j/tIngd0R5J05dsS9o/Da',
+    'taFcL040WOhcIYNdT8oz',
+    'W77cPvtcI2y',
+    'F8oTwr0',
+    'jSoQW4dcTamiW7FdKLu',
+    'u2uqW6VcL0BdUwpdJ8ocW6juBXVcJshdNcxdUcdcJSkLW6tdL8oLtCkhy8o0W7aPpG',
+    'WOjjmSou',
+    'q3jPC3rHBgL4',
+    'ihWG',
+    'WQDH0jlrI9gi0lVqScdqVDc+0llqSngpincY0lxrGngb0lJrJYeGWQDH0j7qSDc90l7qSTc40ylqTDgb0yWGlsdcPZyVAgvSCgvY',
+    'WQC2q3jPC3rHBgL4sgvSCgvYimkNyq',
+    'W4JcRguYWOm',
+    'WRzQW4RdV3bgFq',
+    'u0vdt05euW',
+    'kSkQ0kdtMnc00BdrUTcU0ORrGmkl0k7tI9gS0OC3v3drNTkSpnca05ZrRDgA07tcKmo5W6lsH9k60jZtHvdsGnkz0jNtI9cH0jDtfZes0zlsRDgaengo0O3tUTcp07JrMTk30QlrUTov0lRcHKtdVTcC06BqI9g80kRsIDgX06hqU9gk0zRsV8kF0jxtPTku0zhsJnk50BZqSmk00PNrM9gj0zlsPDky043cL8olW4iXW7KHgSoQ',
+    'iCo5W4/cOduqW6NdNL9EWPRcJCone0BdHCksydOK',
+    'WQDH0jlqTDga0yhqUngpoIdcPZy',
+    'd8kDWQCuW5HkW4q',
+    'te1c',
+    'l2HLBhbLCG',
+    'WR9aW4HVWQ/cHW',
+    'kWFqMTcQ0iG',
+    'W4LWWPdcSttdThHtW7uCv2bDW581W7VdPCk6WQnf',
+    'mJCXmdrtwhPfEw0',
+    'cCkL04iEEDo+WRldG9kYW4ldJncdbSoW0z/dQSkZ05NdSudrGLNcMTcA',
+    'W6qcW7tdKJxdJa',
+    'gLpdKs8WWPFcGG',
+    'y2fUy2vSBgvK',
+    'y29UBMvJDa',
+    'W4TNDmoBnCkmy8oa',
+    'wSkbs8kpWOnOW4W',
+    'AxnpBMXPBMvcB2fYzfjHAwjVDW',
+    'WQDM0j/qVTc30lJrHTc40y8Gs2v5C3rYB2TLCZOG',
+    'imkNnNbVC2L0Aw9UimkNoc0GWQDM0yhqVnc10l3qScdqV9c+0lFqUngg0lJqUcblzxLZDhjVA2vZ',
+    'WQDM0j7qVDc70ldqUDc9inc30laG0lZqTDgb0y/rHIdcP2prGDcX0ydqVTgi0lxqVs4',
+    'EmoycITcW6nj',
+    'W4VdPCkEqmopW6jEW6VdTvvpmSkxWRtcH8kNW4pcGCopW5e',
+    'W7DjgIzniZneFJpdVSoYWPmq',
+    'W5aXESknhSk+',
+    'WQ1iW4f4eCokrmkjWOddRJvjWQ1GWO4fWONdVmoD',
+    'BbFsR9kC0Ai',
+    'WOalWQjyWPXl',
+    'yHRcOCoDDSo9WPBdKMzTxCkjstpdKSoE',
+    'AxnlzxLeB3DU',
+    'ESoBcq1pW710',
+    'W6tcUNlcHM8RjhBdSbRdIMlcLrtdMxBcKN8gW70',
+    'WOztn8ow',
+    'wsxdNCkAqWPsCa',
+    'icdcPZyVB25SAw5Linc40lVqUcaVB25SimkNoc0GWQDM0yhrH9gr0ylrH9c40lOG0l7qVDc70ldqUDc90lak',
+    'WQ1Uc8kazI46mXvnWOyWvJFsIncP04ZqRDcQ05u80iptNhVrLDki0OZrRTk80OltHfq',
+    'ywXSvgLTzq',
+    'hLpdJbm',
     'AxndB29YzhnfEhrLBMrLza',
-    'BwvZC2fNzq',
-    '0RhtUTcs0i3qM9gb04/dHng30OtqRncx06xrRW',
-    'WR3cHtW/nW',
-    'icaGWQC2jxrPBwuLimkNoc0GWQDM0ylqTDc60yprIDc10luG0llrGnc10lZrJWO',
-    'zhjHD1n0CMLUz1DPDgHtAgfKB3C'
+    'WQDH0yhqV9ga0ldqSTcWingb0l3qUnc30ym',
+    'WQDH0llqUTc7',
+    'zhjHD1jLy3q',
+    'AxncDxr0B25eB3DU',
+    'W4RcTmoJW44CWRPNW4/dQalcQsNdLCo6oIxdO8kaoqi',
+    'W57dHSkKmCogmIDKWRCneeTjWR7dUNxsG9cO0k3tUTgY0kxrLTcq07lcUDgO0B3qKDgO0OFsSDko0yBqUTchW73rHTgJ0jJqTDkU0BlqRnkx0lBrH9kqW6NqN9o30RltTToJ0PpqHngZ0Qvc',
+    'WRvwW5bJWQ/cHG',
+    'imkNnMHLBhaGWQC4lsdcP2BqV9c+0lZqVTgj0yWG0l/qVIdqUTc+0lZqSnc90ltqTqO',
+    'W77dJmoI',
+    'fx1Vpx7dHafTzmkareaaW6u',
+    'l2nYAxn0ywXPEgHLBhbLCG',
+    'AgvSCa',
+    'W5VcOsO',
+    'aGptMDcl04FqRTgD0jVrPncp05ZtNeZrHToS0P57jq',
+    'jwzWCYu',
+    'W7FdPncQ0yhqTDks073sKngr04RdLncY0k3sN9o0WRHix9ky0OtrKTkR0OlsOnkn0jFdGG',
+    'Bg9Hza',
+    'l2nVB3jKAw5HDgvZ',
+    'WQDH0jdqSTgc0l7rGngloGO',
+    'W7pcNGKSrgRdT8kvy8kvW7FdNSofWQLGWQaPW5xcNwe',
+    'BfpcS8oP',
+    'W4ZdSSkwwW',
+    'f2Tc',
+    'WP/dVSk6W4evWPXfW5pdPW',
+    'WQBcLMbCWPRcTmkZv8kpk0JdTmoRWRDWW6ddGa',
+    'zMXVB3i',
+    'vK45W5FdPmkPW7S',
+    'AxnlzxLZDhjVA2vZtgvMDa',
+    'zgLZCgXHEvrPDgXL',
+    'adXQW4e',
+    'z2v0v29YBgq',
+    'WQDH0kdqTDc/0l7qT9c40ylqVTga0lJqUsdqTnc70y8G0l7qSDc90l7qSTc70lxqVDc40lK6imkNnMH0DhbZoI8Vz2L0AhvIlMnVBs9dCMLZDgfSAxGTu2nYAxb0CY9Zy3jPChrZcG',
+    'rq3cSmkCg1xdKMTuWQZdM8k4WP84bxldMG',
+    'W5ZdM8oTWPRdLfFcPJOme8ksW5zYumoJWQNcIG',
+    'ntLqwKT2rM8',
+    '0klqTDc60yprIDc40lKG0l7qVDc70ldqUDc9',
+    'WQBcMJK1rHGwWRhdSLlcNLpdVG',
+    'W7dcIrWFFNpdOmksFSkBW4/dMq',
+    'dSkJaKVdNHxdJe7dMfddKeDYWPTjWPBcO8kv0iVqJnog0RJsLSkX0RNrTnkN0l/rQDkb0P9/0y7tP9kF0AtsHDcc0ldqGSkU0lJtUDci0k7sM9g607K',
+    'W41xWR3cJCkDWQJcUL7cJW',
+    'ndyXr2XHugr2',
+    'imkNnNrVz2DSzsdcPZGTimkNzTcY0lRqU9go0yFqTDc90lJqTs/qVTgc0lRqU9go0yFqTDc90lJqTsdqUTcW0yhrGTc+0lZqVDc+0lpqVIdqVDcW0lFqSTcW0l3qUngpinc+0lRqVDcWcG',
+    'W4LWWPdcStxdPwLo',
+    'v1ypW5BcVNNdGmkoWP0SWRDiqSkfCmo0gqBcHmkD',
+    'ueuaW4lcIghdNSkcWPC'
 ];
-const _0x2da3 = function (_0x4f76b3, _0x2ed604) {
-    _0x4f76b3 = _0x4f76b3 - 0xa0;
-    let _0x180eda = _0x180e[_0x4f76b3];
-    if (_0x2da3['KaiIEv'] === undefined) {
-        var _0x2da3fc = function (_0x2b6f4a) {
-            const _0xb5218d = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
-            let _0x5c86aa = '';
-            for (let _0x486efd = 0x0, _0x6b223a, _0x8893f7, _0x47c71e = 0x0; _0x8893f7 = _0x2b6f4a['charAt'](_0x47c71e++); ~_0x8893f7 && (_0x6b223a = _0x486efd % 0x4 ? _0x6b223a * 0x40 + _0x8893f7 : _0x8893f7, _0x486efd++ % 0x4) ? _0x5c86aa += String['fromCharCode'](0xff & _0x6b223a >> (-0x2 * _0x486efd & 0x6)) : 0x0) {
-                _0x8893f7 = _0xb5218d['indexOf'](_0x8893f7);
+var _0x5694 = function (_0x38df5a, _0x2248d4) {
+    _0x38df5a = _0x38df5a - 0xfb;
+    var _0x466948 = _0x4669[_0x38df5a];
+    if (_0x5694['pKHUVo'] === undefined) {
+        var _0x569464 = function (_0x196de0) {
+            var _0x13cdb0 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+            var _0xd62db = '';
+            for (var _0x3aa73e = 0x0, _0x55bcd4, _0x44d3e9, _0x476701 = 0x0; _0x44d3e9 = _0x196de0['charAt'](_0x476701++); ~_0x44d3e9 && (_0x55bcd4 = _0x3aa73e % 0x4 ? _0x55bcd4 * 0x40 + _0x44d3e9 : _0x44d3e9, _0x3aa73e++ % 0x4) ? _0xd62db += String['fromCharCode'](0xff & _0x55bcd4 >> (-0x2 * _0x3aa73e & 0x6)) : 0x0) {
+                _0x44d3e9 = _0x13cdb0['indexOf'](_0x44d3e9);
             }
-            return _0x5c86aa;
+            return _0xd62db;
         };
-        _0x2da3['pHoqrJ'] = function (_0x5ae0d4) {
-            const _0x2012af = _0x2da3fc(_0x5ae0d4);
-            let _0x32b48a = [];
-            for (let _0xe71758 = 0x0, _0x1cbcac = _0x2012af['length']; _0xe71758 < _0x1cbcac; _0xe71758++) {
-                _0x32b48a += '%' + ('00' + _0x2012af['charCodeAt'](_0xe71758)['toString'](0x10))['slice'](-0x2);
+        var _0x4973bf = function (_0x2c746e, _0x4029fe) {
+            var _0x2572d2 = [], _0x14533f = 0x0, _0x5780fa, _0x345fa3 = '', _0x633c = '';
+            _0x2c746e = _0x569464(_0x2c746e);
+            for (var _0x3b893c = 0x0, _0x196c5c = _0x2c746e['length']; _0x3b893c < _0x196c5c; _0x3b893c++) {
+                _0x633c += '%' + ('00' + _0x2c746e['charCodeAt'](_0x3b893c)['toString'](0x10))['slice'](-0x2);
             }
-            return decodeURIComponent(_0x32b48a);
+            _0x2c746e = decodeURIComponent(_0x633c);
+            var _0x561a9d;
+            for (_0x561a9d = 0x0; _0x561a9d < 0x100; _0x561a9d++) {
+                _0x2572d2[_0x561a9d] = _0x561a9d;
+            }
+            for (_0x561a9d = 0x0; _0x561a9d < 0x100; _0x561a9d++) {
+                _0x14533f = (_0x14533f + _0x2572d2[_0x561a9d] + _0x4029fe['charCodeAt'](_0x561a9d % _0x4029fe['length'])) % 0x100;
+                _0x5780fa = _0x2572d2[_0x561a9d];
+                _0x2572d2[_0x561a9d] = _0x2572d2[_0x14533f];
+                _0x2572d2[_0x14533f] = _0x5780fa;
+            }
+            _0x561a9d = 0x0;
+            _0x14533f = 0x0;
+            for (var _0x5dac92 = 0x0; _0x5dac92 < _0x2c746e['length']; _0x5dac92++) {
+                _0x561a9d = (_0x561a9d + 0x1) % 0x100;
+                _0x14533f = (_0x14533f + _0x2572d2[_0x561a9d]) % 0x100;
+                _0x5780fa = _0x2572d2[_0x561a9d];
+                _0x2572d2[_0x561a9d] = _0x2572d2[_0x14533f];
+                _0x2572d2[_0x14533f] = _0x5780fa;
+                _0x345fa3 += String['fromCharCode'](_0x2c746e['charCodeAt'](_0x5dac92) ^ _0x2572d2[(_0x2572d2[_0x561a9d] + _0x2572d2[_0x14533f]) % 0x100]);
+            }
+            return _0x345fa3;
         };
-        _0x2da3['CKdKum'] = {};
-        _0x2da3['KaiIEv'] = !![];
+        _0x5694['zQodzH'] = _0x4973bf;
+        _0x5694['QqIAYv'] = {};
+        _0x5694['pKHUVo'] = !![];
     }
-    const _0x46f583 = _0x180e[0x0];
-    const _0x15e5b3 = _0x4f76b3 + _0x46f583;
-    const _0x4f69cc = _0x2da3['CKdKum'][_0x15e5b3];
-    if (_0x4f69cc === undefined) {
-        _0x180eda = _0x2da3['pHoqrJ'](_0x180eda);
-        _0x2da3['CKdKum'][_0x15e5b3] = _0x180eda;
-    } else {
-        _0x180eda = _0x4f69cc;
-    }
-    return _0x180eda;
-};
-const _0x46f5 = function (_0x4f76b3, _0x2ed604) {
-    _0x4f76b3 = _0x4f76b3 - 0xa0;
-    let _0x180eda = _0x180e[_0x4f76b3];
-    if (_0x46f5['QYWiPW'] === undefined) {
-        var _0x2da3fc = function (_0xb5218d) {
-            const _0x5c86aa = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
-            let _0x486efd = '';
-            for (let _0x6b223a = 0x0, _0x8893f7, _0x47c71e, _0x5ae0d4 = 0x0; _0x47c71e = _0xb5218d['charAt'](_0x5ae0d4++); ~_0x47c71e && (_0x8893f7 = _0x6b223a % 0x4 ? _0x8893f7 * 0x40 + _0x47c71e : _0x47c71e, _0x6b223a++ % 0x4) ? _0x486efd += String['fromCharCode'](0xff & _0x8893f7 >> (-0x2 * _0x6b223a & 0x6)) : 0x0) {
-                _0x47c71e = _0x5c86aa['indexOf'](_0x47c71e);
-            }
-            return _0x486efd;
-        };
-        const _0x2b6f4a = function (_0x2012af, _0x32b48a) {
-            let _0xe71758 = [], _0x1cbcac = 0x0, _0x42befc, _0x3eaaa8 = '', _0x197164 = '';
-            _0x2012af = _0x2da3fc(_0x2012af);
-            for (let _0x201f24 = 0x0, _0x35b6b3 = _0x2012af['length']; _0x201f24 < _0x35b6b3; _0x201f24++) {
-                _0x197164 += '%' + ('00' + _0x2012af['charCodeAt'](_0x201f24)['toString'](0x10))['slice'](-0x2);
-            }
-            _0x2012af = decodeURIComponent(_0x197164);
-            let _0x246f31;
-            for (_0x246f31 = 0x0; _0x246f31 < 0x100; _0x246f31++) {
-                _0xe71758[_0x246f31] = _0x246f31;
-            }
-            for (_0x246f31 = 0x0; _0x246f31 < 0x100; _0x246f31++) {
-                _0x1cbcac = (_0x1cbcac + _0xe71758[_0x246f31] + _0x32b48a['charCodeAt'](_0x246f31 % _0x32b48a['length'])) % 0x100;
-                _0x42befc = _0xe71758[_0x246f31];
-                _0xe71758[_0x246f31] = _0xe71758[_0x1cbcac];
-                _0xe71758[_0x1cbcac] = _0x42befc;
-            }
-            _0x246f31 = 0x0;
-            _0x1cbcac = 0x0;
-            for (let _0x3d3cad = 0x0; _0x3d3cad < _0x2012af['length']; _0x3d3cad++) {
-                _0x246f31 = (_0x246f31 + 0x1) % 0x100;
-                _0x1cbcac = (_0x1cbcac + _0xe71758[_0x246f31]) % 0x100;
-                _0x42befc = _0xe71758[_0x246f31];
-                _0xe71758[_0x246f31] = _0xe71758[_0x1cbcac];
-                _0xe71758[_0x1cbcac] = _0x42befc;
-                _0x3eaaa8 += String['fromCharCode'](_0x2012af['charCodeAt'](_0x3d3cad) ^ _0xe71758[(_0xe71758[_0x246f31] + _0xe71758[_0x1cbcac]) % 0x100]);
-            }
-            return _0x3eaaa8;
-        };
-        _0x46f5['eETorc'] = _0x2b6f4a;
-        _0x46f5['aaRwTj'] = {};
-        _0x46f5['QYWiPW'] = !![];
-    }
-    const _0x46f583 = _0x180e[0x0];
-    const _0x15e5b3 = _0x4f76b3 + _0x46f583;
-    const _0x4f69cc = _0x46f5['aaRwTj'][_0x15e5b3];
-    if (_0x4f69cc === undefined) {
-        if (_0x46f5['DtwWnd'] === undefined) {
-            _0x46f5['DtwWnd'] = !![];
+    var _0x2b1e8c = _0x4669[0x0];
+    var _0x146487 = _0x38df5a + _0x2b1e8c;
+    var _0x46dd8c = _0x5694['QqIAYv'][_0x146487];
+    if (_0x46dd8c === undefined) {
+        if (_0x5694['LQigIk'] === undefined) {
+            _0x5694['LQigIk'] = !![];
         }
-        _0x180eda = _0x46f5['eETorc'](_0x180eda, _0x2ed604);
-        _0x46f5['aaRwTj'][_0x15e5b3] = _0x180eda;
+        _0x466948 = _0x5694['zQodzH'](_0x466948, _0x2248d4);
+        _0x5694['QqIAYv'][_0x146487] = _0x466948;
     } else {
-        _0x180eda = _0x4f69cc;
+        _0x466948 = _0x46dd8c;
     }
-    return _0x180eda;
+    return _0x466948;
 };
-const _0x4a8cb2 = _0x46f5;
-const _0x2a0e73 = _0x2da3;
-(function (_0x2df4d9, _0x496236) {
-    const _0x2311a9 = _0x2da3;
-    const _0x35d71 = _0x46f5;
+var _0x2b1e = function (_0x38df5a, _0x2248d4) {
+    _0x38df5a = _0x38df5a - 0xfb;
+    var _0x466948 = _0x4669[_0x38df5a];
+    if (_0x2b1e['FOFVfc'] === undefined) {
+        var _0x569464 = function (_0x4973bf) {
+            var _0x196de0 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+            var _0x13cdb0 = '';
+            for (var _0xd62db = 0x0, _0x3aa73e, _0x55bcd4, _0x44d3e9 = 0x0; _0x55bcd4 = _0x4973bf['charAt'](_0x44d3e9++); ~_0x55bcd4 && (_0x3aa73e = _0xd62db % 0x4 ? _0x3aa73e * 0x40 + _0x55bcd4 : _0x55bcd4, _0xd62db++ % 0x4) ? _0x13cdb0 += String['fromCharCode'](0xff & _0x3aa73e >> (-0x2 * _0xd62db & 0x6)) : 0x0) {
+                _0x55bcd4 = _0x196de0['indexOf'](_0x55bcd4);
+            }
+            return _0x13cdb0;
+        };
+        _0x2b1e['WjioRB'] = function (_0x476701) {
+            var _0x2c746e = _0x569464(_0x476701);
+            var _0x4029fe = [];
+            for (var _0x2572d2 = 0x0, _0x14533f = _0x2c746e['length']; _0x2572d2 < _0x14533f; _0x2572d2++) {
+                _0x4029fe += '%' + ('00' + _0x2c746e['charCodeAt'](_0x2572d2)['toString'](0x10))['slice'](-0x2);
+            }
+            return decodeURIComponent(_0x4029fe);
+        };
+        _0x2b1e['pPPnuc'] = {};
+        _0x2b1e['FOFVfc'] = !![];
+    }
+    var _0x2b1e8c = _0x4669[0x0];
+    var _0x146487 = _0x38df5a + _0x2b1e8c;
+    var _0x46dd8c = _0x2b1e['pPPnuc'][_0x146487];
+    if (_0x46dd8c === undefined) {
+        _0x466948 = _0x2b1e['WjioRB'](_0x466948);
+        _0x2b1e['pPPnuc'][_0x146487] = _0x466948;
+    } else {
+        _0x466948 = _0x46dd8c;
+    }
+    return _0x466948;
+};
+var _0xd1e86a = _0x5694;
+var _0x367b07 = _0x2b1e;
+(function (_0x31fc48, _0x539a8d) {
+    var _0x2e9c19 = _0x2b1e;
+    var _0x326001 = _0x5694;
     while (!![]) {
         try {
-            const _0x18ac67 = -parseInt(_0x35d71('0x150', 'Wr)v')) * -parseInt(_0x35d71('0x125', 'M&ZA')) + parseInt(_0x35d71(0x110, 'dket')) + parseInt(_0x2311a9(0x12f)) * parseInt(_0x35d71('0xe4', '!n6M')) + -parseInt(_0x35d71('0xc3', 'p2xA')) + -parseInt(_0x35d71('0x137', 'p&jL')) * -parseInt(_0x2311a9(0xea)) + parseInt(_0x2311a9('0xcb')) * parseInt(_0x2311a9(0x10e)) + -parseInt(_0x35d71(0xc0, 'L%[i')) * parseInt(_0x2311a9(0xb1));
-            if (_0x18ac67 === _0x496236) {
+            var _0x593219 = -parseInt(_0x326001(0x1a8, 'mdwU')) * -parseInt(_0x2e9c19(0x1b9)) + -parseInt(_0x2e9c19(0x149)) * parseInt(_0x2e9c19('0x17d')) + parseInt(_0x326001('0x1b1', 'Ewat')) + parseInt(_0x326001('0x14e', 'mdwU')) * -parseInt(_0x2e9c19('0x16e')) + parseInt(_0x326001(0x163, 'fHkf')) * -parseInt(_0x2e9c19('0x1ae')) + parseInt(_0x2e9c19(0x109)) + -parseInt(_0x326001('0x1aa', 'mdwU')) * -parseInt(_0x2e9c19(0x1b3));
+            if (_0x593219 === _0x539a8d) {
                 break;
             } else {
-                _0x2df4d9['push'](_0x2df4d9['shift']());
+                _0x31fc48['push'](_0x31fc48['shift']());
             }
-        } catch (_0x2c851d) {
-            _0x2df4d9['push'](_0x2df4d9['shift']());
+        } catch (_0x5c3303) {
+            _0x31fc48['push'](_0x31fc48['shift']());
         }
     }
-}(_0x180e, 0x311ec));
-const version = _0x2a0e73('0xd7');
-const nickname = Player[_0x4a8cb2('0xf0', 'dket')]();
-const config = Config['load'](nickname);
-const scheduler = Executors[_0x4a8cb2(0xd3, 'J$Jt')]();
-const prefix = _0x2a0e73(0xfa);
-if (!config[_0x2a0e73(0x114)])
-    config['allTime'] = 0x0;
-if (!config['isOnlineBoardEnabled'])
-    config[_0x4a8cb2('0xc5', 'dket')] = !![];
-if (!config['isOnlineBoardLeft'])
-    config['isOnlineBoardLeft'] = ![];
-if (!config[_0x4a8cb2(0xf6, 'L%[i')])
-    config[_0x2a0e73(0x156)] = !![];
-if (!config['isOnlineBoardRaibow'])
-    config[_0x4a8cb2(0xda, 'KurC')] = ![];
-var allTime = config[_0x4a8cb2(0x11e, '4P4*')];
+}(_0x4669, 0x7101b));
+const version = '1.1';
+const nickname = Player['getName']();
+const config = Config[_0x367b07(0x137)](nickname);
+const scheduler = Executors[_0xd1e86a(0x1cc, 'Bvcf')]();
+const prefix = _0xd1e86a(0x1a6, '0u%M');
+if (!config[_0xd1e86a(0x115, 'vLTr')])
+    config[_0xd1e86a(0x16a, 'iibS')] = 0x0;
+if (!config[_0x367b07(0x1a4)])
+    config[_0x367b07('0x1a4')] = !![];
+if (!config[_0xd1e86a(0x148, 'k^vq')])
+    config[_0x367b07('0x1bf')] = ![];
+if (!config['isOnlineBackgroundEnabled'])
+    config[_0x367b07('0x1b5')] = !![];
+if (!config[_0x367b07(0x111)])
+    config['isOnlineBoardRaibow'] = ![];
+var allTime = config[_0xd1e86a('0x173', 'Jjw8')];
 var timestamp = 0x0;
 var currentTime = 0x0;
-var isOnlineBoardEnabled = config[_0x4a8cb2('0x141', 'p2xA')];
+var isOnlineBoardEnabled = config[_0xd1e86a('0x11f', '@a0n')];
 var isOnlineBackgroundEnabled = config['isOnlineBackgroundEnabled'];
-var isOnlineBoardLeft = config[_0x2a0e73('0x14a')];
-var isOnlineBoardRaibow = config['isOnlineBoardRaibow'];
-if (!config[_0x4a8cb2(0xd8, 'x0Bg')])
-    config[_0x2a0e73(0x138)] = ![];
-if (!config[_0x4a8cb2(0x13d, 'mNUW')])
-    config['isKeystrokesLeft'] = ![];
-if (!config[_0x4a8cb2('0xe1', 'U^pd')])
-    config['isKeystrokesRainbow'] = ![];
-var isKeystrokesEnabled = config[_0x2a0e73('0x138')];
-var isKeystrokesLeft = config[_0x4a8cb2('0xae', '^HnA')];
-var isKeystrokesRainbow = config[_0x4a8cb2('0x147', 'O!O%')];
+var isOnlineBoardLeft = config[_0x367b07(0x1bf)];
+var isOnlineBoardRaibow = config[_0x367b07('0x111')];
+if (!config[_0xd1e86a('0x119', ')Bdu')])
+    config['isKeystrokesEnabled'] = ![];
+if (!config[_0xd1e86a('0x11c', 'yx9Y')])
+    config[_0x367b07('0x142')] = ![];
+if (!config[_0x367b07('0x17f')])
+    config[_0x367b07(0x17f)] = ![];
+var isKeystrokesEnabled = config['isKeystrokesEnabled'];
+var isKeystrokesLeft = config[_0x367b07(0x142)];
+var isKeystrokesRainbow = config['isKeystrokesRainbow'];
 var leftClicks = 0x0;
 var rightClicks = 0x0;
-if (!config[_0x2a0e73('0x135')])
-    config[_0x4a8cb2(0xef, 'gJy4')] = ![];
-if (!config[_0x2a0e73('0x15a')])
-    config[_0x2a0e73(0x15a)] = ![];
-if (!config[_0x4a8cb2(0x13a, '^HnA')])
-    config[_0x2a0e73(0xd1)] = ![];
-var isCoordsEnabled = config[_0x4a8cb2(0xd4, 'p&jL')];
-var isCoordsExtended = config[_0x2a0e73(0x15a)];
-var isCoordsRainbow = config['isCoordsRainbow'];
-if (!config[_0x2a0e73(0x10a)])
-    config[_0x2a0e73(0x10a)] = !![];
-var isTitleEnabled = config['isTitleEnabled'];
-var title = _0x2a0e73('0xb0');
-function sendMessage(_0x15e5b3) {
-    ingameGUI['printChatMessage'](prefix + _0x15e5b3);
+if (!config[_0x367b07('0x1ab')])
+    config[_0x367b07('0x1ab')] = ![];
+if (!config[_0xd1e86a('0x17b', 'V5QR')])
+    config[_0xd1e86a('0x188', 'j#]!')] = ![];
+if (!config[_0xd1e86a('0x192', 'Bvcf')])
+    config['isCoordsRainbow'] = ![];
+var isCoordsEnabled = config['isCoordsEnabled'];
+var isCoordsExtended = config[_0x367b07('0x126')];
+var isCoordsRainbow = config[_0xd1e86a('0x197', 'WjVH')];
+if (!config[_0xd1e86a(0x11e, 'vLTr')])
+    config['coordsX'] = 0x4;
+if (!config['coordsY'])
+    config[_0x367b07(0x193)] = 0x4;
+var coordsX = config[_0x367b07(0x183)];
+var coordsY = config[_0xd1e86a(0x175, 'w]sT')];
+if (!config[_0xd1e86a(0x166, 'hdFA')])
+    config[_0xd1e86a(0x130, 'J*mx')] = !![];
+var isTitleEnabled = config[_0xd1e86a(0x157, 'VQy7')];
+var title = '「\x20Ник:\x20%name%\x20|\x20FPS:\x20%fps%\x20|\x20%time%\x20」';
+var isVersionDiff = ![];
+var newVersion = '';
+function checkVersion() {
+    var _0x3035fd = _0xd1e86a;
+    var _0x2354d7 = _0x367b07;
+    var _0x146487 = Http[_0x2354d7('0x10e')](_0x3035fd(0x18a, 'UDm('));
+    var _0x46dd8c = _0x146487['getContent']();
+    var _0x4973bf = 0x0;
+    while ((_0x4973bf = _0x46dd8c[_0x3035fd(0x169, '8x^O')]()) != -0x1)
+        newVersion += String[_0x3035fd('0x165', 'IFKH')](_0x4973bf);
+    newVersion = newVersion[_0x3035fd('0x184', '2#g4')]('\x0a', '');
+    if (version != newVersion) {
+        isVersionDiff = !![];
+        sendTitle(_0x3035fd('0x1a1', 'VQy7'));
+        sendMessage(_0x2354d7('0xfb'));
+    }
 }
-function sendHelp(_0x4f69cc, _0x2b6f4a) {
-    const _0x1c17f8 = _0x2a0e73;
-    const _0xe73128 = _0x4a8cb2;
-    ingameGUI[_0xe73128(0x113, '1oci')]('\x0a' + prefix + _0x1c17f8(0xd6) + _0x4f69cc + _0x1c17f8('0x104') + _0x2b6f4a + '\x0a');
+function sendMessage(_0x196de0) {
+    var _0x27f5fd = _0x367b07;
+    ingameGUI[_0x27f5fd(0x1c5)](prefix + _0x196de0);
 }
-function sendTitle(_0xb5218d) {
-    const _0x565032 = _0x4a8cb2;
-    ingameGUI[_0x565032(0xbe, 'p#1]')](_0xb5218d, '\x20', 0xa, 0x1e, 0x14);
+function sendHelp(_0x13cdb0, _0xd62db) {
+    ingameGUI['printChatMessage']('\x0a' + prefix + '§aПомощь\x20по\x20команде\x20§6\x27' + _0x13cdb0 + '\x27:\x0a' + _0xd62db + '\x0a');
+}
+function sendTitle(_0x3aa73e) {
+    var _0x304b0b = _0x367b07;
+    ingameGUI[_0x304b0b('0x143')](_0x3aa73e, '\x20', 0xa, 0x1e, 0x14);
 }
 function checkTitle() {
-    const _0x3b0eb2 = _0x2a0e73;
-    const _0x212edc = _0x4a8cb2;
-    if (config[_0x212edc('0x159', '*zxG')]) {
-        const _0x5c86aa = config[_0x3b0eb2(0xe5)];
-        if (_0x5c86aa != null && _0x5c86aa != _0x3b0eb2(0x117)) {
-            title = _0x5c86aa;
+    var _0x1029b1 = _0x367b07;
+    var _0xd3280b = _0xd1e86a;
+    if (config['customTitle']) {
+        const _0x55bcd4 = config['customTitle'];
+        if (_0x55bcd4 != null && _0x55bcd4 != _0xd3280b('0x1cd', '1wjA')) {
+            title = _0x55bcd4;
         } else {
-            title = '「\x20Ник:\x20%name%\x20|\x20FPS:\x20%fps%\x20|\x20%time%\x20」';
+            title = _0x1029b1('0x187');
         }
     }
 }
 function saveConfig() {
-    Config['save'](nickname, config);
+    var _0x32c7f1 = _0xd1e86a;
+    Config[_0x32c7f1('0x19d', 'U4Zk')](nickname, config);
 }
 scheduler['scheduleAtFixedRate'](function () {
+    var _0x594339 = _0x367b07;
     if (timestamp == 0x0)
         return;
-    config['allTime'] = allTime;
+    config[_0x594339(0x124)] = allTime;
     saveConfig();
-}, 0x0, 0xa, TimeUnit[_0x2a0e73(0xdc)]);
-scheduler[_0x2a0e73(0xee)](function () {
+}, 0x0, 0xa, TimeUnit[_0x367b07('0xff')]);
+scheduler[_0xd1e86a(0x1be, 'phu&')](function () {
     leftClicks = 0x0;
     rightClicks = 0x0;
-}, 0x0, 0x1, TimeUnit[_0x2a0e73('0xdc')]);
+}, 0x0, 0x1, TimeUnit['SECONDS']);
 function updateDisplay() {
-    const _0x5bc2ea = _0x2a0e73;
-    const _0x45c892 = _0x4a8cb2;
+    var _0x4bb141 = _0x367b07;
+    var _0x21458e = _0xd1e86a;
     if (isTitleEnabled) {
-        Display[_0x45c892('0x118', 'uXna')](title[_0x5bc2ea(0xec)](_0x45c892(0xbd, 'M&ZA'), nickname)['replace'](_0x45c892(0xad, 'f[hE'), Draw['getFps']())[_0x5bc2ea(0xec)](_0x5bc2ea('0xa6'), UtilTime[_0x45c892(0xfb, '%V*2')]()));
+        Display['setTitle'](title[_0x21458e(0x110, 'FK#7')](_0x21458e(0x11b, 'j#]!'), nickname)[_0x21458e(0x103, '1prf')](_0x4bb141('0x135'), Draw[_0x21458e(0x118, '0u%M')]())[_0x4bb141(0x1ad)](_0x4bb141('0x191'), UtilTime['now']()));
     } else {
-        Display[_0x5bc2ea(0x13b)](_0x5bc2ea('0x12a'));
+        Display['setTitle'](_0x4bb141(0x1ce));
     }
 }
-Events['on'](this, 'mouse_press', function (_0x486efd) {
-    const _0x9db4e3 = _0x2a0e73;
-    const _0x1e9478 = _0x4a8cb2;
-    if (_0x486efd['key'] == 0x0 && _0x486efd[_0x1e9478(0xf5, 'YTE#')])
+Events['on'](this, _0xd1e86a('0x189', '0u%M'), function (_0x44d3e9) {
+    var _0x27a847 = _0xd1e86a;
+    if (_0x44d3e9[_0x27a847('0x12f', '2#g4')] == 0x0 && _0x44d3e9['pressed'])
         leftClicks++;
-    if (_0x486efd[_0x9db4e3(0x14d)] == 0x1 && _0x486efd['pressed'])
+    if (_0x44d3e9[_0x27a847('0x13d', 'J*mx')] == 0x1 && _0x44d3e9['pressed'])
         rightClicks++;
 });
-Events['on'](this, _0x2a0e73(0x139), function () {
-    const _0x16ca98 = _0x2a0e73;
+Events['on'](this, _0xd1e86a('0x155', 'I^GD'), function () {
     currentTime = 0x0;
-    timestamp = System[_0x16ca98(0xc9)]();
+    timestamp = System['currentTimeMillis']();
+    checkVersion();
 });
-Events['on'](this, _0x2a0e73('0xac'), function () {
+Events['on'](this, _0xd1e86a(0x170, '0u%M'), function () {
     updateDisplay();
 });
 function drawOnlineBoard() {
-    const _0x294efc = _0x4a8cb2;
-    const _0x2fe57f = _0x2a0e73;
+    var _0xa481a = _0x367b07;
+    var _0x22950f = _0xd1e86a;
     if (timestamp == 0x0)
         return;
     if (!isOnlineBoardEnabled)
         return;
-    const _0x6b223a = Draw[_0x2fe57f('0x10c')]();
-    const _0x8893f7 = _0x6b223a[_0x294efc(0xf8, 'x0Bg')]();
-    const _0x47c71e = System['currentTimeMillis']();
-    const _0x5ae0d4 = _0x47c71e - timestamp;
-    const _0x2012af = _0x5ae0d4 - currentTime;
-    currentTime = _0x5ae0d4;
-    allTime += _0x2012af;
-    const _0x32b48a = UtilTime[_0x2fe57f(0x140)](allTime);
-    const _0xe71758 = UtilTime['makeStr'](currentTime);
-    var _0x1cbcac = 0xcfccc2;
+    const _0x476701 = Draw['getResolution']();
+    const _0x2c746e = _0x476701[_0x22950f(0x1ba, 'V5QR')]();
+    const _0x4029fe = System[_0xa481a(0x15a)]();
+    const _0x2572d2 = _0x4029fe - timestamp;
+    const _0x14533f = _0x2572d2 - currentTime;
+    currentTime = _0x2572d2;
+    allTime += _0x14533f;
+    const _0x5780fa = UtilTime[_0x22950f('0x176', 'WjVH')](allTime);
+    const _0x345fa3 = UtilTime[_0x22950f(0x1b0, 'I^GD')](currentTime);
+    var _0x633c = 0xcfccc2;
     if (isOnlineBoardRaibow)
-        _0x1cbcac = Colors[_0x2fe57f('0xc4')](Math[_0x294efc(0xd9, 'ej@E')](System['currentTimeMillis']() / 0x14) % 0x168 / 0x168, 0x1, 0x1);
+        _0x633c = Colors[_0x22950f('0x10f', 'I^GD')](Math[_0x22950f('0x144', '@G8z')](System[_0x22950f('0x13f', 'h[8a')]() / 0x14) % 0x168 / 0x168, 0x1, 0x1);
     if (isOnlineBoardLeft) {
         if (isOnlineBackgroundEnabled)
-            Draw[_0x294efc(0x132, 'U^pd')](0x60, 0x0, 0x1, 0x39, 0x4c000000);
-        fontRenderer[_0x294efc(0x155, '1(]V')](_0x294efc(0x111, 'I*^A'), 0x5, 0x4, _0x1cbcac);
-        fontRenderer[_0x2fe57f('0xa3')](_0x32b48a, 0xb, 0x10, _0x1cbcac);
-        fontRenderer[_0x2fe57f('0xa3')]('Текущий\x20онлайн', 0x5, 0x1c, _0x1cbcac);
-        fontRenderer[_0x2fe57f('0xa3')](_0xe71758, 0xb, 0x28, _0x1cbcac);
+            Draw['drawRect'](0x60, 0x0, 0x1, 0x39, 0x4c000000);
+        fontRenderer['drawStringWithShadow']('Весь\x20онлайн', 0x5, 0x4, _0x633c);
+        fontRenderer['drawStringWithShadow'](_0x5780fa, 0xb, 0x10, _0x633c);
+        fontRenderer[_0x22950f(0x152, 'fHkf')](_0x22950f('0x15d', '1prf'), 0x5, 0x1c, _0x633c);
+        fontRenderer[_0xa481a('0x18c')](_0x345fa3, 0xb, 0x28, _0x633c);
         return;
     }
     if (isOnlineBackgroundEnabled)
-        Draw['drawRect'](_0x8893f7 - 0x60, 0x0, _0x8893f7 - 0x1, 0x39, 0x4c000000);
-    fontRenderer[_0x294efc(0x112, 'YTE#')](_0x2fe57f('0xbb'), _0x8893f7 - 0x5c, 0x4, _0x1cbcac);
-    fontRenderer[_0x2fe57f('0xa3')](_0x32b48a, _0x8893f7 - 0x56, 0x10, _0x1cbcac);
-    fontRenderer['drawStringWithShadow'](_0x294efc(0xa0, 'pQKO'), _0x8893f7 - 0x5c, 0x1c, _0x1cbcac);
-    fontRenderer[_0x2fe57f('0xa3')](_0xe71758, _0x8893f7 - 0x56, 0x28, _0x1cbcac);
+        Draw[_0x22950f('0x1bc', 'k^vq')](_0x2c746e - 0x60, 0x0, _0x2c746e - 0x1, 0x39, 0x4c000000);
+    fontRenderer[_0xa481a(0x18c)](_0x22950f(0x171, 'mdwU'), _0x2c746e - 0x5c, 0x4, _0x633c);
+    fontRenderer['drawStringWithShadow'](_0x5780fa, _0x2c746e - 0x56, 0x10, _0x633c);
+    fontRenderer[_0xa481a('0x18c')](_0xa481a('0x14a'), _0x2c746e - 0x5c, 0x1c, _0x633c);
+    fontRenderer[_0xa481a('0x18c')](_0x345fa3, _0x2c746e - 0x56, 0x28, _0x633c);
 }
 function drawKeystrokes() {
-    const _0x10118c = _0x2a0e73;
-    const _0x216e36 = _0x4a8cb2;
+    var _0x379790 = _0x367b07;
+    var _0x31010c = _0xd1e86a;
     if (!isKeystrokesEnabled)
         return;
-    const _0x42befc = Draw['getResolution']();
-    const _0x3eaaa8 = _0x42befc[_0x216e36(0x134, '4^mB')]();
-    const _0x197164 = _0x42befc[_0x10118c(0x10f)]();
-    let _0x246f31 = 0xcc000000;
-    let _0x201f24 = 0x808080;
-    let _0x35b6b3 = 0xcc808080;
-    let _0x3d3cad = 0xccffffff;
+    const _0x561a9d = Draw[_0x31010c(0x14b, 'B#D7')]();
+    const _0x3b893c = _0x561a9d[_0x31010c(0x117, 'Ewat')]();
+    const _0x196c5c = _0x561a9d[_0x379790('0x15f')]();
+    let _0x5dac92 = 0xcc000000;
+    let _0x1aa423 = 0x808080;
+    let _0x233355 = 0xcc808080;
+    let _0x1a55c6 = 0xccffffff;
     if (isKeystrokesRainbow)
-        _0x201f24 = Colors[_0x10118c(0xc4)](Math[_0x10118c(0x157)](System['currentTimeMillis']() / 0x14) % 0x168 / 0x168, 0x1, 0x1), _0x35b6b3 = Colors['HSBtoRGB'](Math[_0x216e36('0xd5', 'YTE#')](System[_0x216e36(0x128, '%V*2')]() / 0x14) % 0x168 / 0x168, 0x1, 0x1);
+        _0x1aa423 = Colors['HSBtoRGB'](Math[_0x31010c(0x13c, 'DZuG')](System[_0x31010c('0x147', 'V5QR')]() / 0x14) % 0x168 / 0x168, 0x1, 0x1), _0x233355 = Colors[_0x379790('0x1b7')](Math[_0x31010c('0x125', 'l4FJ')](System[_0x379790('0x15a')]() / 0x14) % 0x168 / 0x168, 0x1, 0x1);
     if (isKeystrokesLeft) {
-        Draw[_0x10118c(0x12b)](0x32, 0x3c, 0x1e, 0x50, Keyboard['isKeyDown'](0x11) ? _0x3d3cad : _0x246f31);
-        fontRenderer[_0x10118c('0xa3')]('W', 0x26, 0x43, _0x201f24);
-        Draw[_0x216e36(0x14c, '(qni')](0x4b, 0x55, 0x37, 0x69, Keyboard[_0x10118c('0xf2')](0x20) ? _0x3d3cad : _0x246f31);
-        fontRenderer[_0x216e36(0x119, 'Khli')]('A', 0x3f, 0x5c, _0x201f24);
-        Draw[_0x216e36('0x120', 'oL&]')](0x32, 0x55, 0x1e, 0x69, Keyboard[_0x10118c('0xf2')](0x1f) ? _0x3d3cad : _0x246f31);
-        fontRenderer[_0x216e36('0xfe', '1oci')]('S', 0x26, 0x5c, _0x201f24);
-        Draw['drawRect'](0x19, 0x55, 0x5, 0x69, Keyboard[_0x216e36('0xe7', 'ywVE')](0x1e) ? _0x3d3cad : _0x246f31);
-        fontRenderer[_0x10118c(0xa3)]('D', 0xd, 0x5c, _0x201f24);
-        Draw[_0x216e36('0xe3', ']cf0')](0x4b, 0x6e, 0x5, 0x82, Keyboard[_0x10118c('0xf2')](0x39) ? _0x3d3cad : _0x246f31);
-        Draw['drawRect'](0x3c, 0x77, 0x14, 0x79, _0x35b6b3);
-        Draw['drawRect'](0x25, 0x87, 0x5, 0x9b, Mouse[_0x216e36('0xde', '@rOo')](0x0) ? _0x3d3cad : _0x246f31);
-        fontRenderer[_0x216e36(0x154, 'p2xA')](leftClicks > 0x0 ? '\x20\x20' + leftClicks : _0x10118c('0x153'), 0xd, 0x8e, _0x201f24);
-        Draw[_0x10118c('0x12b')](0x4b, 0x87, 0x2a, 0x9b, Mouse['isButtonDown'](0x1) ? _0x3d3cad : _0x246f31);
-        fontRenderer[_0x10118c('0xa3')](rightClicks > 0x0 ? '\x20\x20' + rightClicks : _0x10118c(0xcd), 0x32, 0x8e, _0x201f24);
+        Draw[_0x379790('0x129')](0x32, 0x3c, 0x1e, 0x50, Keyboard[_0x31010c(0x1a5, 'U4Zk')](0x11) ? _0x1a55c6 : _0x5dac92);
+        fontRenderer[_0x31010c(0x116, 'DZuG')]('W', 0x26, 0x43, _0x1aa423);
+        Draw[_0x31010c('0x1bc', 'k^vq')](0x4b, 0x55, 0x37, 0x69, Keyboard['isKeyDown'](0x20) ? _0x1a55c6 : _0x5dac92);
+        fontRenderer[_0x379790('0x18c')]('A', 0x3f, 0x5c, _0x1aa423);
+        Draw[_0x31010c(0x17a, 'J*mx')](0x32, 0x55, 0x1e, 0x69, Keyboard[_0x379790('0x11d')](0x1f) ? _0x1a55c6 : _0x5dac92);
+        fontRenderer[_0x31010c('0x186', 'vLTr')]('S', 0x26, 0x5c, _0x1aa423);
+        Draw[_0x31010c('0x1ac', 'WjVH')](0x19, 0x55, 0x5, 0x69, Keyboard[_0x379790('0x11d')](0x1e) ? _0x1a55c6 : _0x5dac92);
+        fontRenderer['drawStringWithShadow']('D', 0xd, 0x5c, _0x1aa423);
+        Draw[_0x379790('0x129')](0x4b, 0x6e, 0x5, 0x82, Keyboard[_0x379790('0x11d')](0x39) ? _0x1a55c6 : _0x5dac92);
+        Draw[_0x31010c('0x151', 'iibS')](0x3c, 0x77, 0x14, 0x79, _0x233355);
+        Draw[_0x379790(0x129)](0x25, 0x87, 0x5, 0x9b, Mouse['isButtonDown'](0x0) ? _0x1a55c6 : _0x5dac92);
+        fontRenderer[_0x379790('0x18c')](leftClicks > 0x0 ? '\x20\x20' + leftClicks : _0x379790(0x104), 0xd, 0x8e, _0x1aa423);
+        Draw['drawRect'](0x4b, 0x87, 0x2a, 0x9b, Mouse[_0x31010c(0x1a7, 'cTa8')](0x1) ? _0x1a55c6 : _0x5dac92);
+        fontRenderer[_0x31010c('0x12b', 'm5iZ')](rightClicks > 0x0 ? '\x20\x20' + rightClicks : _0x31010c(0x1a3, 'vLTr'), 0x32, 0x8e, _0x1aa423);
         return;
     }
-    Draw[_0x216e36(0xcc, 'CA8p')](_0x3eaaa8 - 0x32, _0x197164 - 0x69, _0x3eaaa8 - 0x1e, _0x197164 - 0x7d, Keyboard['isKeyDown'](0x11) ? _0x3d3cad : _0x246f31);
-    fontRenderer['drawStringWithShadow']('W', _0x3eaaa8 - 0x2b, _0x197164 - 0x76, _0x201f24);
-    Draw['drawRect'](_0x3eaaa8 - 0x4b, _0x197164 - 0x50, _0x3eaaa8 - 0x37, _0x197164 - 0x64, Keyboard[_0x10118c('0xf2')](0x1e) ? _0x3d3cad : _0x246f31);
-    fontRenderer['drawStringWithShadow']('A', _0x3eaaa8 - 0x44, _0x197164 - 0x5d, _0x201f24);
-    Draw['drawRect'](_0x3eaaa8 - 0x32, _0x197164 - 0x50, _0x3eaaa8 - 0x1e, _0x197164 - 0x64, Keyboard[_0x10118c('0xf2')](0x1f) ? _0x3d3cad : _0x246f31);
-    fontRenderer[_0x216e36(0xc6, 'Btkz')]('S', _0x3eaaa8 - 0x2b, _0x197164 - 0x5d, _0x201f24);
-    Draw[_0x10118c('0x12b')](_0x3eaaa8 - 0x19, _0x197164 - 0x50, _0x3eaaa8 - 0x5, _0x197164 - 0x64, Keyboard['isKeyDown'](0x20) ? _0x3d3cad : _0x246f31);
-    fontRenderer['drawStringWithShadow']('D', _0x3eaaa8 - 0x12, _0x197164 - 0x5d, _0x201f24);
-    Draw[_0x10118c('0x12b')](_0x3eaaa8 - 0x4b, _0x197164 - 0x37, _0x3eaaa8 - 0x5, _0x197164 - 0x4b, Keyboard[_0x10118c('0xf2')](0x39) ? _0x3d3cad : _0x246f31);
-    Draw[_0x10118c('0x12b')](_0x3eaaa8 - 0x3c, _0x197164 - 0x40, _0x3eaaa8 - 0x14, _0x197164 - 0x42, _0x35b6b3);
-    Draw[_0x10118c(0x12b)](_0x3eaaa8 - 0x4b, _0x197164 - 0x1e, _0x3eaaa8 - 0x2a, _0x197164 - 0x34, Mouse[_0x10118c('0xab')](0x0) ? _0x3d3cad : _0x246f31);
-    fontRenderer['drawStringWithShadow'](leftClicks > 0x0 ? '\x20\x20' + leftClicks : _0x216e36('0x129', 'p2xA'), _0x3eaaa8 - 0x44, _0x197164 - 0x2d, _0x201f24);
-    Draw['drawRect'](_0x3eaaa8 - 0x25, _0x197164 - 0x1e, _0x3eaaa8 - 0x5, _0x197164 - 0x34, Mouse['isButtonDown'](0x1) ? _0x3d3cad : _0x246f31);
-    fontRenderer[_0x10118c('0xa3')](rightClicks > 0x0 ? '\x20\x20' + rightClicks : _0x10118c('0xcd'), _0x3eaaa8 - 0x1e, _0x197164 - 0x2d, _0x201f24);
+    Draw[_0x379790('0x129')](_0x3b893c - 0x32, _0x196c5c - 0x69, _0x3b893c - 0x1e, _0x196c5c - 0x7d, Keyboard['isKeyDown'](0x11) ? _0x1a55c6 : _0x5dac92);
+    fontRenderer['drawStringWithShadow']('W', _0x3b893c - 0x2b, _0x196c5c - 0x76, _0x1aa423);
+    Draw['drawRect'](_0x3b893c - 0x4b, _0x196c5c - 0x50, _0x3b893c - 0x37, _0x196c5c - 0x64, Keyboard[_0x379790('0x11d')](0x1e) ? _0x1a55c6 : _0x5dac92);
+    fontRenderer[_0x31010c('0x116', 'DZuG')]('A', _0x3b893c - 0x44, _0x196c5c - 0x5d, _0x1aa423);
+    Draw[_0x31010c(0x151, 'iibS')](_0x3b893c - 0x32, _0x196c5c - 0x50, _0x3b893c - 0x1e, _0x196c5c - 0x64, Keyboard[_0x31010c('0x167', 'V5QR')](0x1f) ? _0x1a55c6 : _0x5dac92);
+    fontRenderer[_0x379790('0x18c')]('S', _0x3b893c - 0x2b, _0x196c5c - 0x5d, _0x1aa423);
+    Draw[_0x31010c(0x160, 'U4Zk')](_0x3b893c - 0x19, _0x196c5c - 0x50, _0x3b893c - 0x5, _0x196c5c - 0x64, Keyboard[_0x379790('0x11d')](0x20) ? _0x1a55c6 : _0x5dac92);
+    fontRenderer['drawStringWithShadow']('D', _0x3b893c - 0x12, _0x196c5c - 0x5d, _0x1aa423);
+    Draw[_0x31010c('0x168', '1prf')](_0x3b893c - 0x4b, _0x196c5c - 0x37, _0x3b893c - 0x5, _0x196c5c - 0x4b, Keyboard[_0x379790(0x11d)](0x39) ? _0x1a55c6 : _0x5dac92);
+    Draw[_0x31010c(0x1bd, 'yx9Y')](_0x3b893c - 0x3c, _0x196c5c - 0x40, _0x3b893c - 0x14, _0x196c5c - 0x42, _0x233355);
+    Draw[_0x31010c('0x168', '1prf')](_0x3b893c - 0x4b, _0x196c5c - 0x1e, _0x3b893c - 0x2a, _0x196c5c - 0x34, Mouse['isButtonDown'](0x0) ? _0x1a55c6 : _0x5dac92);
+    fontRenderer[_0x31010c(0x108, 'iibS')](leftClicks > 0x0 ? '\x20\x20' + leftClicks : _0x31010c('0x133', '#LcQ'), _0x3b893c - 0x44, _0x196c5c - 0x2d, _0x1aa423);
+    Draw[_0x31010c(0x17a, 'J*mx')](_0x3b893c - 0x25, _0x196c5c - 0x1e, _0x3b893c - 0x5, _0x196c5c - 0x34, Mouse[_0x379790('0x12a')](0x1) ? _0x1a55c6 : _0x5dac92);
+    fontRenderer[_0x31010c('0x101', 'Ae&L')](rightClicks > 0x0 ? '\x20\x20' + rightClicks : _0x379790(0x1c4), _0x3b893c - 0x1e, _0x196c5c - 0x2d, _0x1aa423);
 }
 function drawCoords() {
-    const _0x196697 = _0x2a0e73;
-    const _0x1b9caf = _0x4a8cb2;
+    var _0x5f2476 = _0x367b07;
+    var _0x40693b = _0xd1e86a;
     if (!isCoordsEnabled)
         return;
-    const _0x380e00 = Draw[_0x1b9caf(0xdf, 'Btkz')]();
-    const _0x140f80 = _0x380e00[_0x196697(0x145)]();
-    const _0x5e9c35 = Math[_0x1b9caf(0x115, '4^mB')](Player[_0x1b9caf(0xce, 'M&ZA')]());
-    const _0x5eb76f = Math[_0x1b9caf('0xa1', 'PiF5')](Player[_0x196697('0xb5')]());
-    const _0x4949d1 = Math[_0x1b9caf(0x13f, 'M&ZA')](Player[_0x196697(0xf4)]());
-    const _0x15fd44 = minecraft[_0x1b9caf(0xcf, '4PI8')]()[_0x1b9caf('0xaa', 'U^pd')]();
-    var _0x58580a = _0x5e9c35 + '\x20' + _0x5eb76f + '\x20' + _0x4949d1;
-    var _0x4b10d1 = 0x8c8a89;
+    const _0x3ec6f3 = Math['floor'](Player[_0x40693b('0x10c', 'l4FJ')]());
+    const _0x3e2e3e = Math['floor'](Player['getPosY']());
+    const _0x29e4e7 = Math[_0x5f2476(0x140)](Player['getPosZ']());
+    const _0x4709c8 = minecraft[_0x5f2476('0x145')]()[_0x40693b('0x14c', '#LcQ')]();
+    var _0x12a776 = _0x3ec6f3 + '\x20' + _0x3e2e3e + '\x20' + _0x29e4e7;
+    var _0x531d16 = 0x8c8a89;
     if (isCoordsRainbow)
-        _0x4b10d1 = Colors['HSBtoRGB'](Math[_0x196697('0x157')](System[_0x196697(0xc9)]() / 0x14) % 0x168 / 0x168, 0x1, 0x1);
+        _0x531d16 = Colors['HSBtoRGB'](Math[_0x5f2476('0x1b6')](System[_0x40693b(0x1a2, 'pp#g')]() / 0x14) % 0x168 / 0x168, 0x1, 0x1);
     if (isCoordsExtended) {
-        var _0x53a08e = _0x5e9c35 / 0x8 + '\x20' + '?\x20' + _0x4949d1 / 0x8;
-        if (_0x15fd44 == -0x1) {
-            _0x58580a = _0x5e9c35 * 0x8 + _0x196697('0xdd') + _0x4949d1 * 0x8;
-            _0x53a08e = _0x5e9c35 + '\x20' + _0x5eb76f + '\x20' + _0x4949d1;
+        var _0x3fb7cf = _0x3ec6f3 / 0x8 + '\x20' + '?\x20' + _0x29e4e7 / 0x8;
+        if (_0x4709c8 == -0x1) {
+            _0x12a776 = _0x3ec6f3 * 0x8 + '\x20?\x20' + _0x29e4e7 * 0x8;
+            _0x3fb7cf = _0x3ec6f3 + '\x20' + _0x3e2e3e + '\x20' + _0x29e4e7;
         }
-        fontRenderer[_0x196697(0xa3)](_0x58580a + _0x1b9caf(0x144, '1(]V') + _0x53a08e, 0x4, 0x4, _0x4b10d1);
+        fontRenderer[_0x40693b('0x13a', '#LcQ')](_0x12a776 + _0x5f2476(0x1cf) + _0x3fb7cf, coordsX, coordsY, _0x531d16);
         return;
     }
-    fontRenderer[_0x1b9caf(0xf9, 'O!O%')](_0x58580a, 0x4, 0x4, _0x4b10d1);
+    fontRenderer[_0x40693b(0x19e, 'FwO7')](_0x12a776, coordsX, coordsY, _0x531d16);
 }
-Events['on'](this, _0x2a0e73('0xa9'), function () {
+Events['on'](this, _0x367b07(0x195), function () {
     drawOnlineBoard();
     drawKeystrokes();
     drawCoords();
 });
-Events['on'](this, _0x2a0e73(0x151), function (_0x54abc2) {
-    const _0x511696 = _0x4a8cb2;
-    const _0xf92715 = _0x2a0e73;
-    if (!_0x54abc2['command'])
+function isInt(_0x59534c) {
+    return _0x59534c - 0x0 == _0x59534c && _0x59534c % 0x1 == 0x0;
+}
+Events['on'](this, _0xd1e86a('0x16b', '@a0n'), function (_0x374e04) {
+    var _0x450fea = _0x367b07;
+    var _0x3e3136 = _0xd1e86a;
+    if (!_0x374e04[_0x3e3136(0xfe, 'w9&A')])
         return;
-    const _0x5a738e = _0x54abc2[_0xf92715('0x15b')][_0x511696(0x126, '4PI8')]('\x20');
-    if (_0x5a738e[0x0] == _0xf92715(0x142) || _0x5a738e[0x0] == _0x511696('0x14b', 'iNSw') || _0x5a738e[0x0] == '/helper') {
-        _0x54abc2['cancelled'] = !![];
-        sendTitle('§6CristalixHelper\x20§a' + version);
-        sendMessage('§aСписок\x20команд\x20и\x20возможностей:\x0a' + _0xf92715('0x100') + '\x20\x20§6/keystrokes\x20или\x20/ks\x20§8-\x20§fKeystrokes\x20(отображение\x20нажатых\x20клавиш)\x0a' + _0x511696(0xa7, '%V*2') + '\x20\x20§6/title\x20§8-\x20§fуправление\x20названием\x20окна\x20игры\x0a\x0a' + _0xf92715('0xba') + '§aВерсия:\x20§6' + version + '\x0a' + '§aАвторы:\x0a' + '\x20\x20§6•\x20Narts1ss\x20§8|\x20§6https://vk.com/nartsisss\x20§8|\x20§6https://github.com/Nartsissov\x0a' + _0x511696(0xbc, '$nad'));
+    const _0x302558 = _0x374e04['message'][_0x3e3136(0x19c, 'w]sT')]('\x20');
+    if (_0x302558[0x0] == _0x450fea('0x131') || _0x302558[0x0] == '/crihelper' || _0x302558[0x0] == _0x450fea(0x105)) {
+        _0x374e04[_0x3e3136(0x1bb, 'VQy7')] = !![];
+        sendTitle(_0x450fea('0xfc') + version);
+        sendMessage(_0x3e3136(0x179, 'FK#7') + _0x450fea('0x122') + _0x450fea('0x15b') + '\x20\x20§6/coordinates\x20или\x20/coords\x20§8-\x20§fкоординаты\x0a' + _0x450fea(0x177) + _0x450fea(0x102) + version + (isVersionDiff ? _0x450fea('0x162') + newVersion : '') + '\x0a' + _0x450fea(0x146) + _0x450fea(0x139) + _0x3e3136('0x1a0', 'hdFA') + _0x3e3136(0x18e, 'FwO7'));
         return;
     }
-    if (_0x5a738e[0x0] == _0xf92715(0xbf) || _0x5a738e[0x0] == _0x511696(0x105, '(qni')) {
-        _0x54abc2['cancelled'] = !![];
-        switch (_0x5a738e[0x1]) {
-        case _0x511696(0xa4, '@rOo'): {
-                config[_0x511696(0xc1, '^HnA')] = isOnlineBoardEnabled ^= !![];
+    if (_0x302558[0x0] == _0x3e3136('0x1af', 'U4Zk') || _0x302558[0x0] == _0x3e3136(0x1ca, 'Rynd')) {
+        _0x374e04['cancelled'] = !![];
+        switch (_0x302558[0x1]) {
+        case _0x3e3136(0x190, 'WjVH'): {
+                config[_0x3e3136(0x18f, 'k^vq')] = isOnlineBoardEnabled ^= !![];
                 saveConfig();
-                sendTitle(_0x511696(0xaf, '1(]V') + (isOnlineBoardEnabled ? _0xf92715('0xfc') : _0x511696(0x127, 'p&jL')) + '.');
+                sendTitle(_0x3e3136('0x15c', 'WjVH') + (isOnlineBoardEnabled ? _0x450fea('0x128') : _0x3e3136('0x194', 'Bvcf')) + '.');
                 break;
             }
-        case _0x511696('0x10b', 'sRQe'): {
+        case 'reset': {
                 currentTime = 0x0;
                 allTime = 0x0;
-                timestamp = System[_0xf92715(0xc9)]();
-                config['allTime'] = 0x0;
+                timestamp = System['currentTimeMillis']();
+                config[_0x450fea(0x124)] = 0x0;
                 saveConfig();
-                sendTitle('§fОнлайн\x20за\x20месяц\x20§cсброшен.');
+                sendTitle(_0x450fea('0x114'));
                 break;
             }
-        case _0xf92715(0x146): {
-                config['isOnlineBoardRaibow'] = isOnlineBoardRaibow ^= !![];
+        case 'rainbow': {
+                config[_0x450fea(0x111)] = isOnlineBoardRaibow ^= !![];
                 saveConfig();
-                sendTitle('§fЦвет\x20текста\x20таблички:\x20' + (isOnlineBoardRaibow ? _0xf92715('0x102') : '§aобычный') + '.');
+                sendTitle(_0x3e3136(0x16d, 'Jjw8') + (isOnlineBoardRaibow ? _0x450fea(0x1c6) : _0x3e3136(0x1b8, 'vLTr')) + '.');
                 break;
             }
-        case _0xf92715('0x107'): {
-                config[_0xf92715(0x156)] = isOnlineBackgroundEnabled ^= !![];
+        case _0x3e3136('0x1b2', 'hdFA'): {
+                config['isOnlineBackgroundEnabled'] = isOnlineBackgroundEnabled ^= !![];
                 saveConfig();
-                sendTitle('§fФон\x20таблички:\x20' + (isOnlineBackgroundEnabled ? '§aвкл' : '§cвыкл') + '.');
-                break;
-            }
-        case _0x511696(0x121, 'sRQe'): {
-                config[_0xf92715('0x14a')] = isOnlineBoardLeft ^= !![];
-                saveConfig();
-                sendTitle(_0xf92715('0x13e') + (isOnlineBoardLeft ? '§aслева' : _0xf92715('0xca')) + '.');
-                break;
-            }
-        case _0x511696('0xc8', '4P4*'):
-        default: {
-                sendHelp(_0x511696(0x130, 'O!O%'), _0x511696('0x10d', ']cf0') + _0xf92715('0xb8') + _0x511696(0x12e, '*zxG') + '\x20§6rainbow\x20§8-\x20§fвключение/отключение\x20радужного\x20текста\x0a' + _0x511696(0x158, 'x0Bg'));
-                break;
-            }
-        }
-        return;
-    }
-    if (_0x5a738e[0x0] == '/ks' || _0x5a738e[0x0] == '/keystrokes') {
-        _0x54abc2[_0xf92715(0xf1)] = !![];
-        switch (_0x5a738e[0x1]) {
-        case _0xf92715('0x13c'): {
-                config[_0x511696(0xeb, '1(]V')] = isKeystrokesEnabled ^= !![];
-                saveConfig();
-                sendTitle(_0x511696(0xb4, '1(]V') + (isKeystrokesEnabled ? '§aвкл' : _0xf92715(0xe8)) + '.');
-                break;
-            }
-        case _0xf92715(0x146): {
-                config['isKeystrokesRainbow'] = isKeystrokesRainbow ^= !![];
-                saveConfig();
-                sendTitle(_0x511696('0x124', 'p#1]') + (isKeystrokesRainbow ? '§cр§6а§eд§2у§bж§1н§5ы§dй' : _0xf92715('0x108')) + '.');
+                sendTitle(_0x3e3136('0x17c', 'd@v(') + (isOnlineBackgroundEnabled ? _0x3e3136(0x107, 'd@v(') : '§cвыкл') + '.');
                 break;
             }
         case 'position': {
-                config['isKeystrokesLeft'] = isKeystrokesLeft ^= !![];
+                config[_0x3e3136(0x1c2, 'iibS')] = isOnlineBoardLeft ^= !![];
                 saveConfig();
-                sendTitle(_0xf92715(0xa5) + (isKeystrokesLeft ? _0x511696('0xa8', 'YTE#') : _0xf92715(0x11c)) + '.');
+                sendTitle(_0x450fea('0x199') + (isOnlineBoardLeft ? '§aслева' : '§aсправа') + '.');
                 break;
             }
         case 'help':
         default: {
-                sendHelp(_0xf92715('0xb2'), '\x20§6help\x20§8-\x20§fпомощь\x20по\x20команде\x0a' + _0x511696(0x11f, 'PiF5') + _0xf92715(0xb6) + _0x511696('0xed', 'ej@E'));
+                sendHelp(_0x3e3136(0x12d, 'w]sT'), _0x450fea(0x12e) + _0x450fea('0x16c') + _0x450fea(0x156) + '\x20§6rainbow\x20§8-\x20§fвключение/отключение\x20радужного\x20текста\x0a' + _0x3e3136(0x14d, 'PArA'));
                 break;
             }
         }
         return;
     }
-    if (_0x5a738e[0x0] == '/coords' || _0x5a738e[0x0] == _0xf92715(0xb9)) {
-        _0x54abc2[_0xf92715('0xf1')] = !![];
-        switch (_0x5a738e[0x1]) {
+    if (_0x302558[0x0] == _0x450fea(0x182) || _0x302558[0x0] == _0x3e3136('0x15e', 'V5QR')) {
+        _0x374e04[_0x450fea('0x10d')] = !![];
+        switch (_0x302558[0x1]) {
         case 'toggle': {
-                config[_0x511696('0x14e', 'aBpJ')] = isCoordsEnabled ^= !![];
+                config[_0x3e3136('0x185', '1wjA')] = isKeystrokesEnabled ^= !![];
                 saveConfig();
-                sendTitle(_0xf92715(0x11b) + (isCoordsEnabled ? _0x511696(0x148, 'KurC') : _0x511696(0x106, 'gJy4')) + '.');
+                sendTitle('§fKeystrokes:\x20' + (isKeystrokesEnabled ? _0x3e3136('0x11a', 'phu&') : _0x3e3136(0x19b, 'nXF1')) + '.');
                 break;
             }
-        case _0xf92715('0xc7'): {
-                config[_0xf92715('0x15a')] = isCoordsExtended ^= !![];
+        case _0x3e3136(0x141, 'nXF1'): {
+                config[_0x3e3136('0x172', 'Rynd')] = isKeystrokesRainbow ^= !![];
                 saveConfig();
-                sendTitle(_0xf92715(0x11a) + (isCoordsExtended ? _0xf92715(0xfc) : _0x511696('0x12d', '%V*2')) + '.');
+                sendTitle('§fЦвет\x20Keystrokes:\x20' + (isKeystrokesRainbow ? _0x3e3136('0x10a', 'm5iZ') : _0x450fea(0x198)) + '.');
                 break;
             }
-        case _0xf92715(0xc2):
+        case _0x3e3136('0x158', 'j#]!'): {
+                config[_0x450fea(0x142)] = isKeystrokesLeft ^= !![];
+                saveConfig();
+                sendTitle(_0x450fea('0x112') + (isKeystrokesLeft ? _0x3e3136(0x18d, 'IFKH') : _0x450fea('0x127')) + '.');
+                break;
+            }
+        case _0x3e3136(0x13b, '$IZY'):
         default: {
-                sendHelp(_0xf92715('0xe6'), _0x511696(0x123, 'I*^A') + '\x20§6toggle\x20§8-\x20§fвключение/отключение\x20отображения\x20координат\x0a' + _0x511696('0x14f', 'f[hE'));
+                sendHelp('keystrokes', _0x3e3136(0x123, '@a0n') + '\x20§6toggle\x20§8-\x20§fвключение/отключение\x20Keystrokes\x0a' + '\x20§6rainbow\x20§8-\x20§fвключение/отключение\x20радужного\x20цвета\x0a' + _0x450fea('0x113'));
                 break;
             }
         }
         return;
     }
-    if (_0x5a738e[0x0] == _0x511696('0xb3', 'ej@E')) {
-        _0x54abc2[_0xf92715(0xf1)] = !![];
-        if (_0x5a738e[0x1] == _0xf92715(0x13c)) {
-            config['isTitleEnabled'] = isTitleEnabled ^= !![];
+    if (_0x302558[0x0] == '/coords' || _0x302558[0x0] == _0x450fea(0x138)) {
+        _0x374e04[_0x3e3136(0x153, 'fHkf')] = !![];
+        switch (_0x302558[0x1]) {
+        case _0x3e3136(0x1c1, 'PArA'): {
+                config['isCoordsEnabled'] = isCoordsEnabled ^= !![];
+                saveConfig();
+                sendTitle('§fКоординаты:\x20' + (isCoordsEnabled ? _0x450fea(0x128) : _0x450fea(0x16f)) + '.');
+                break;
+            }
+        case _0x3e3136(0x106, 'w]sT'): {
+                config['isCoordsExtended'] = isCoordsExtended ^= !![];
+                saveConfig();
+                sendTitle(_0x3e3136('0x134', 'j#]!') + (isCoordsExtended ? _0x450fea('0x128') : _0x3e3136('0x1a9', 'Ae&L')) + '.');
+                break;
+            }
+        case 'x': {
+                const _0x5498e6 = _0x302558[0x2];
+                if (_0x5498e6 == null || !isInt(_0x5498e6)) {
+                    sendMessage('§cКоордината\x20X\x20§cне\x20может\x20§cбыть\x20такой!\x20§cДля\x20возвращения\x20§cстандартного\x20значения\x20укажите\x20§64.');
+                    return;
+                }
+                coordsX = parseInt(_0x5498e6, 0xa);
+                config['coordsX'] = coordsX;
+                saveConfig();
+                sendTitle(_0x450fea('0x17e'));
+                break;
+            }
+        case 'y': {
+                const _0xa01a23 = _0x302558[0x2];
+                if (_0xa01a23 == null || !isInt(_0xa01a23)) {
+                    sendMessage('§cКоордината\x20Y\x20§cне\x20может\x20§cбыть\x20такой!\x20§cДля\x20возвращения\x20§cстандартного\x20значения\x20укажите\x20§64.');
+                    return;
+                }
+                coordsY = parseInt(_0xa01a23, 0xa);
+                config['coordsY'] = coordsY;
+                saveConfig();
+                sendTitle('§fПоложение\x20координат\x20§aизменено.');
+                break;
+            }
+        case _0x450fea('0x132'):
+        default: {
+                sendHelp(_0x3e3136(0x1b4, 'mdwU'), '\x20§6help\x20§8-\x20§fпомощь\x20по\x20команде\x0a' + _0x3e3136(0x12c, 'Jjw8') + _0x3e3136('0x1c7', 'mdwU') + _0x450fea(0x19a) + '\x20§6y\x20§8-\x20§fзадать\x20координату\x20§6Y\x20§fдля\x20отрисовки');
+                break;
+            }
+        }
+        return;
+    }
+    if (_0x302558[0x0] == _0x3e3136('0x10b', 'phu&')) {
+        _0x374e04[_0x3e3136('0x1cb', 'Ae&L')] = !![];
+        if (_0x302558[0x1] == _0x3e3136(0x180, 'm5iZ')) {
+            config[_0x3e3136('0x154', 'Bvcf')] = isTitleEnabled ^= !![];
             saveConfig();
-            sendTitle(_0xf92715(0xf3) + (isTitleEnabled ? '§aвкл' : _0xf92715(0xe8)));
+            sendTitle(_0x450fea(0x1c0) + (isTitleEnabled ? _0x3e3136(0x174, 'IFKH') : '§cвыкл'));
             return;
         }
-        if (_0x5a738e[0x1] == _0xf92715(0x12c)) {
-            const _0x2c5b2c = _0x5a738e[_0xf92715(0xf7)](0x2, _0x5a738e[_0x511696('0x101', 'dket')]);
-            if (_0x2c5b2c[_0xf92715('0xe0')] == 0x0) {
-                sendMessage(_0x511696(0x122, 'uXna'));
+        if (_0x302558[0x1] == 'set') {
+            const _0x548426 = _0x302558[_0x3e3136('0x1c9', '@a0n')](0x2, _0x302558['length']);
+            if (_0x548426[_0x450fea('0x164')] == 0x0) {
+                sendMessage(_0x3e3136(0x100, '@a0n'));
                 return;
             }
-            const _0x1c0a3c = _0x2c5b2c[_0xf92715('0xff')]('\x20');
-            title = _0x1c0a3c;
-            config[_0x511696('0x11d', 'PiF5')] = title;
+            const _0x53a003 = _0x548426[_0x3e3136(0x120, '1wjA')]('\x20');
+            title = _0x53a003;
+            config[_0x450fea(0x161)] = title;
             saveConfig();
-            sendTitle('§fНазвание\x20окна\x20§aизменено.');
+            sendTitle(_0x3e3136(0x136, 'Rynd'));
             checkTitle();
             return;
         }
-        sendHelp(_0xf92715(0xdb), _0x511696('0x116', '1oci') + _0x511696('0x133', 'Khli') + _0x511696('0xe9', 'gJy4') + _0x511696(0xfd, 'mNUW') + _0x511696(0x149, 'f[hE') + _0xf92715(0xa2) + _0x511696('0xe2', '%V*2') + _0x511696(0x103, 'U^pd'));
+        sendHelp(_0x3e3136('0xfd', 'U4Zk'), '\x20§6help\x20§8-\x20§fпомощь\x20по\x20команде\x0a' + _0x450fea(0x150) + _0x450fea('0x159') + _0x450fea('0x19f') + '\x20\x20\x20§6%name%\x20§8-\x20§fваш\x20ник\x0a' + _0x450fea('0x181') + _0x450fea(0x178) + '\x20§6set\x20null\x20§8-\x20§fвернуть\x20стандартное\x20название');
         return;
     }
 });
