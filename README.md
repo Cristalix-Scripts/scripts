@@ -1,5 +1,5 @@
 # Cristalix Scripts
-![Downloads](https://img.shields.io/github/downloads/Cristalix-Scripts/scripts/total?color=green&label=%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8&style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/Cristalix-Scripts/scripts/total?label=%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8&style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/Cristalix-Scripts/scripts?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues-closed/Cristalix-Scripts/scripts?style=for-the-badge)
 ---
